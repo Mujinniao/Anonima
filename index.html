@@ -1,2 +1,520 @@
-hello world
-mujinniao
+{
+	"targetVersion":4,
+	"version4Link":"",
+	"name":"金鸟订阅",
+	"author":"金鸟",
+	"contact":"无",
+	"message":"本订阅为专供订阅，禁止传播本订阅！本订阅中的视频源请勿用于下载，失效不会修复！本订阅仅供学习参考，禁止用来违规违法操作。",
+	"searchConfig":[
+		{
+			"configName":"酷云",
+			"configType":"Kuyun77",
+			"searchUrl":"http://api.kunyu77.com"
+		},
+		{
+			"configName":"阿里云",
+			"configType":"MacCMS",
+			"extensions":"m3u8",
+			"jsonArray":"list",
+			"matchSource":"alizy",
+			"realExtensionsRegex":"\"type\":\\s?\"(.*?)\"",
+			"realUrl":"https://jx.cqzyw.net:8655/analysis/index/?uid=113&token=afghijmADHPTWY2579&url={ItemUrlOrId}",
+			"realUrlRegex":"\"url\":\\s?\"(http.*?)\"",
+			"searchUrl":"http://61.111.129.36/apl.php/provide/vod/?ac=detail&wd={SearchWord}&Header={\"User-Agent\":\"Mozilla/5.0 (Linux; Android 10; M2007J17C Build/QKQ1.200628.002; wv)\"}"
+		},
+		{
+			"configName":"TVB云播啊",
+			"configType":"WebPage",
+			"itemNameRegex":"<li class=\".*\"><a class=\".*\" href=\".*/sid/1/nid/.*\">(.*?)</a></li>",
+			"itemUrlRegex":"<li class=\".*\"><a class=\".*\" href=\"(.*/sid/1/nid/.*)\">.*</a></li>",
+			"searchNameRegex":"lazyload\" href=\".*\" title=\"(.*?)\" data-original=\".*\">",
+			"searchPictureRegex":"lazyload\" href=\".*\" title=\".*\" data-original=\"(.*?)\">",
+			"searchStateRegex":"<span class=\"pic-text text-right\">(.*?)</span>",
+			"searchTypeRegex":"分类：</span>(.*?)<span class=\"split-line\"></span>",
+			"searchUrl":"http://www.tvyb02.com/vod/search.html?wd={SearchWord}&submit=",
+			"searchUrlRegex":"lazyload\" href=\"(.*?)\" title=\".*\" data-original=\".*\">",
+			"searchYearRegex":"年份：</span>(.*?)</p>"
+		},
+		{
+			"configName":"落尘啊",
+			"configType":"WebPage2",
+			"itemNameRegex":"<li.*><a href=\".*/\\d*/0/\\d*\\.html\">(.*?)</a></li>",
+			"itemUrl":"{SearchUrlOrId}&Header={\"User-Agent\":\"{WebViewUserAgent}\"}",
+			"itemUrlRegex":"<li.*><a href=\"(.*/\\d*/0/\\d*\\.html)\">.*</a></li>",
+			"searchNameRegex":"<span class=\"sTit\">([^<>]*)</span>",
+			"searchPictureRegex":"<img src=\"(.*)\" onerror=\"nofind\\(\\);\" style=\"width: 0px; height: 0px;\">",
+			"searchTypeRegex":"<span class=\"sStyle\"><em class=\"styleBlue\">(.*)</em></span>",
+			"searchUrl":"POST:https://v.20s.wang/?c=search&PostBody={\"wd\":\"{SearchWord}\"}&Header={\"User-Agent\":\"{WebViewUserAgent}\"}",
+			"searchUrlRegex":"</div> <a href=\"(.*)\" target=\"_self\" class=\"aMask\" style=\"width: 0px; height: 0px;\"></a> </li>",
+			"searchYearRegex":"<span class=\"sDes\">&nbsp;&nbsp;/&nbsp;&nbsp;(.*)</span>",
+			"usable":true
+		},
+		{
+			"configName":"六度啊",
+			"configType":"WebPage",
+			"extensions":"unknown",
+			"itemNameRegex":"<li><a title=\".*\" href=\".*\\d*/0/\\d*\\.html\" target=\"_self\">(.*)</a></li>",
+			"itemUrlRegex":"<li><a title=\".*\" href=\"(.*\\d*/0/\\d*\\.html)\" target=\"_self\">.*</a></li>",
+			"searchNameRegex":"<h3 class=\"title\"><a href=\".*\">(.*)</a></h3>",
+			"searchPictureRegex":"<a class=\".*\" href=\".*\" title=\".*\" alt=\".*\" data-original=&\"(.*?)\">",
+			"searchTypeRegex":"类型：</span>(.*?)<",
+			"searchUrl":"POST:http://6d.998top.net/?c=search&PostBody={\"wd\":\"{SearchWord}\"}",
+			"searchUrlRegex":"<h3 class=\"title\"><a href=\"(.*)\">.*</a></h3>",
+			"searchYearRegex":"年份：</span>(.*?)<"
+		},
+		{
+			"configName":"酷客啊",
+			"configType":"WebPage",
+			"extensions":"unknown",
+			"itemNameRegex":"<li><a href=\".*\\d*-0-\\d*\\.html\" target=\"_self\" title=\"(.*)\">.*</a></li>",
+			"itemUrlRegex":"<li><a href=\"(.*\\d*-0-\\d*\\.html)\" target=\"_self\" title=\".*\">.*</a></li>",
+			"searchNameRegex":"<h3 class=\"title\"><a href=\".*\">(.*)</a></h3>",
+			"searchPictureRegex":"<a class=\".*\" data-original=\"(.*)\" href=\".*\" title=\".*\"><span class=\"play hidden-xs\"></span> <span class=\"pic-text text-right\">.*</span></a>",
+			"searchStateRegex":"<a class=\".*\" data-original=\".*\" href=\".*\" title=\".*\"><span class=\"play hidden-xs\"></span> <span class=\"pic-text text-right\">(.*)</span></a>",
+			"searchTypeRegex":"类型：</span>(.*?)<",
+			"searchUrl":"POST:http://www.anluyg.net/search.php?PostBody={\"searchword\":\"{SearchWordNoEncryption}\"}",
+			"searchUrlRegex":"<h3 class=\"title\"><a href=\"(.*)\">.*</a></h3>",
+			"searchYearRegex":"年份：</span>(.*?)<"
+		},
+		{
+			"configName":"思古啊",
+			"configType":"WebPage",
+			"encrypted":true,
+			"extensions":"unknown",
+			"itemNameRegex":"<li class=\"col-lg-\\d* col-md-\\d* col-sm-\\d* col-xs-\\d*\"><a class=\"btn btn-default\" href=\"/play/\\d*-1-\\d*\\.html\">(.*)</a></li>",
+			"itemUrlRegex":"<li class=\"col-lg-\\d* col-md-\\d* col-sm-\\d* col-xs-\\d*\"><a class=\"btn btn-default\" href=\"(/play/\\d*-1-\\d*\\.html)\">.*</a></li>",
+			"searchNameRegex":"<h4 class=\"title\"><a class=\"searchkey\" href=\"/detail/\\d*\\.html\">(.*)</a></h4>",
+			"searchPictureRegex":"<a class=\"myui-vodlist__thumb img-lg-150 img-md-150 img-sm-150 img-xs-100 lazyload\" href=\".*\" title=\".*\" data-original=\"(.*?)\">",
+			"searchStateRegex":"<span class=\"pic-text text-right\">(.*)</span></a>",
+			"searchTypeRegex":"分类：</span>(.*?)<",
+			"searchUrl":"https://www.siguyy.com/search/-------------.html?wd={SearchWord}&submit=",
+			"searchUrlRegex":"<h4 class=\"title\"><a class=\"searchkey\" href=\"(/detail/\\d*\\.html)\">.*</a></h4>",
+			"searchYearRegex":"年份：</span>(.*)</p>",
+			"usable":true
+		},
+		{
+			"configName":"AGE动漫啊",
+			"configType":"WebPage",
+			"itemNameRegex":"<a href=\".*play/.*\" target=\"_self\" title=\"(.*?)\">.*</a>",
+			"itemUrlRegex":"<a href=\"(.*play/.*)\" target=\"_self\" title=\".*\">.*</a>",
+			"searchNameRegex":"<a href=\".*\" class=\"cell_imform_name\">(.*?)</a>",
+			"searchPictureRegex":"width=\"150px\" height=\"208px\" src=\"(.*?)\" alt=\".*\">",
+			"searchStateRegex":"<span class=\"newname\">(.*?)</span></a>",
+			"searchUrl":"https://www.agefans.cc/search?query={SearchWord}&page=1",
+			"searchUrlRegex":"<a href=\"(.*?)\" class=\"cell_imform_name\">.*</a>"
+		},
+		{
+			"configName":"夜夜迷啊",
+			"configType":"WebPage",
+			"itemNameRegex":"<li><a href=\".*/vodplay/.*\">(.*?)</a></li>",
+			"itemUrlRegex":"<li><a href=\"(.*/vodplay/.*)\">.*</a></li>",
+			"searchNameRegex":"lazyload\" href=\".*\" title=\"(.*?)\" data-original=\".*\">",
+			"searchPictureRegex":"lazyload\" href=\".*\" title=\".*\" data-original=\"(.*?)\">",
+			"searchStateRegex":"<span class=\"pic-text text-right\">(.*?)</span>",
+			"searchTypeRegex":"类型：</span>(.*?)<span class=\"split-line\"></span><span class=\"text-muted\">地区",
+			"searchUrl":"http://yeyemi.com/vodsearch/-------------/?wd={SearchWord}&submit=",
+			"searchUrlRegex":"lazyload\" href=\"(.*?)\" title=\".*\" data-original=\".*\">",
+			"searchYearRegex":"年份：</span>(.*?)</span></p>",
+			"sniffExcludeRegex":".*la/.*"
+		},
+		{
+			"configName":"五五五FUN",
+			"configType":"WebPage",
+			"extensions":"unknown",
+			"itemNameRegex":" <li class=\".*\"><a class=\"btn btn-default\" href=\"/vodplay/\\d*-1-\\d*\\.html\">(.*?)</a></li>",
+			"itemUrlRegex":" <li class=\".*\"><a class=\"btn btn-default\" href=\"(/vodplay/\\d*-1-\\d*\\.html)\">.*</a></li>",
+			"searchNameRegex":"lazyload\" href=\".*\" title=\"(.*?)\" data-original",
+			"searchPictureRegex":"lazyload\" href=\".*\" title=\".*\" data-original=\"(.*?)\">",
+			"searchStateRegex":"<span class=\"pic-text text-right\">(.*?)</span> </a >",
+			"searchTypeRegex":"分类：</span>(.*?)<span class=\"split-line\">",
+			"searchUrl":"https://555dy.fun/vodsearch/-------------.html?wd={SearchWord}&submit=",
+			"searchUrlRegex":"lazyload\" href=\"(.*?)\" title=\".*\" data-original",
+			"searchYearRegex":"年份：</span>(.*?)</p >"
+		},
+		{
+			"configName":"迪迪啊",
+			"configType":"WebPage",
+			"itemNameRegex":"<a class=\"btn btn-default\" href=\".*\">(.*)</a></li>",
+			"itemUrlRegex":"<a class=\"btn btn-default\" href=\"(.*)\">.*</a></li>",
+			"searchNameRegex":"href=\".*\" title=\"(.*)\" data-original=",
+			"searchPictureRegex":"data-original=\"(.*)\"><span",
+			"searchStateRegex":"<span class=\"pic-text text-right\">(.*)</span>",
+			"searchUrl":"http://tv758.com/index.php/vod/search.html?wd={SearchWord}&submit=",
+			"searchUrlRegex":"href=\"(.*)\" title=\".*\" data-original=",
+			"usable":true
+		},
+		{
+			"configName":"精品影视",
+			"configType":"WebPage",
+			"itemNameRegex":"<li class=\".*\"><a class=\".*\" href=\".*vodplay/.*\">(.*?)</a></li>",
+			"itemUrlRegex":"<li class=\".*\"><a class=\".*\" href=\"(.*vodplay/.*)\">.*</a></li>",
+			"searchNameRegex":"lazyload\" href=\".*\" title=\"(.*?)\" data-original=\".*\"><",
+			"searchPictureRegex":"lazyload\" href=\".*\" title=\".*\" data-original=\"(.*?)\"><",
+			"searchStateRegex":"<span class=\"pic-text text-right\">(.*?)</span></a>",
+			"searchTypeRegex":"分类：</span>(.*?)<span class=\"split-line\"></span><span class=\"text-muted hidden-xs\">地区：</span>",
+			"searchUrl":"https://www.jpysvip.net/vodsearch/-------------.html?wd={SearchWord}&submit=",
+			"searchUrlRegex":"lazyload\" href=\"(.*?)\" title=\".*\" data-original=\".*\"><",
+			"sniffExcludeRegex":"https://ia\\.51\\.la.*",
+			"usable":true
+		},
+		{
+			"configName":"电影盒子",
+			"configType":"Analysis360",
+			"realUrl":"http://jx5.178du.com/p1/?url={ItemUrlOrId}",
+			"searchUrl":"http://m.360kan.com/search/index?kw={SearchWord}"
+		},
+		{
+			"configName":"移动P解析",
+			"configType":"Analysis360",
+			"realUrl":"https://vip.parwix.com:4433/player/?url={ItemUrlOrId}",
+			"searchUrl":"http://m.360kan.com/search/index?kw={SearchWord}"
+		},
+		{
+			"configName":"暮光(解析)",
+			"configType":"Analysis360",
+			"realUrl":"https://muguang.mgtv.com.muguangys.com/jiexi.php?url={ItemUrlOrId}",
+			"searchUrl":"http://m.360kan.com/search/index?kw={SearchWord}"
+		},
+		{
+			"configName":"淘影(解析)",
+			"configType":"Analysis360",
+			"realUrl":"https://api.1dior.cn/analysis/123/index.php?uid=1428&my=afkruDFIYZ&url={ItemUrlOrId}",
+			"searchUrl":"http://m.360kan.com/search/index?kw={SearchWord}"
+		},
+		{
+			"configName":"久播(解析)",
+			"configType":"Analysis360",
+			"realUrl":"https://vip.jiubojx.com/vip/?url={ItemUrlOrId}",
+			"searchUrl":"http://m.360kan.com/search/index?kw={SearchWord}"
+		},
+		{
+			"configName":"影视工场",
+			"configType":"Analysis360",
+			"realUrl":"https://play.dushe520.com/index.php?url={ItemUrlOrId}",
+			"searchUrl":"http://m.360kan.com/search/index?kw={SearchWord}"
+		},
+		{
+			"configName":"真不卡",
+			"configType":"MacCMS",
+			"extensions":"unknown",
+			"jsonArray":"list",
+			"matchSource":"zhenbuka",
+			"searchUrl":"http://db.taijuwang.cc/api.php/provide/vod/?ac=detail&wd={SearchWord}"
+		}
+	],
+	"searchManager":{},
+	"analysisApi":{},
+	"sniffUrlSkip":{
+		"https://m.ixigua.com/i6802476259302441479/":{
+			"skipUrl":"http://yuledy.helanzuida.com/20200320/708_a2986d1c/index.m3u8"
+		},
+		"https://www.iqiyi.com/v_tjru6f49h8.html?vfm=m_502_sgss&fv=p_05_01&fv=bf562ffc1cd15119":{
+			"skipUrl":"https://cache2.jhdyw.vip:8090/jianghu/iqiyi/66bdc9e3bd9679ae5afe7ba9aae49b87.m3u8"
+		}
+	},
+	"televisionList":[
+		{
+			"epgIndex":"",
+			"tvList":[
+				{
+					"sniff":true,
+					"tvUrl":"http://39.134.115.163:8080/PLTV/88888910/224/3221225647/index.m3u8#mp4",
+					"tvUrlTips":"HD"
+				},
+				{
+					"sniff":true,
+					"tvUrl":"http://39.135.33.12/PLTV/77777777/224/3221226717/index.m3u8#mp4",
+					"tvUrlTips":"1080P"
+				}
+			],
+			"tvLogo":"",
+			"tvName":"CCTV3综艺-HD",
+			"uiType":"NotEPG"
+		},
+		{
+			"epgIndex":"",
+			"tvList":[
+				{
+					"sniff":true,
+					"tvUrl":"http://39.134.115.163:8080/PLTV/88888910/224/3221225621/index.m3u8#mp4",
+					"tvUrlTips":"HD"
+				},
+				{
+					"sniff":true,
+					"tvUrl":"http://39.135.33.12/PLTV/77777777/224/3221226817/index.m3u8#mp4",
+					"tvUrlTips":"1080P"
+				}
+			],
+			"tvLogo":"",
+			"tvName":"CCTV4中文国际-HD",
+			"uiType":"NotEPG"
+		},
+		{
+			"epgIndex":"",
+			"tvList":[
+				{
+					"sniff":true,
+					"tvUrl":"http://39.134.115.163:8080/PLTV/88888910/224/3221225624/index.m3u8#mp4",
+					"tvUrlTips":"HD"
+				},
+				{
+					"sniff":true,
+					"tvUrl":"http://39.135.33.12/PLTV/77777777/224/3221226646/index.m3u8#mp4",
+					"tvUrlTips":"1080P"
+				}
+			],
+			"tvLogo":"",
+			"tvName":"CCTV7国防军事-HD",
+			"uiType":"NotEPG"
+		},
+		{
+			"epgIndex":"",
+			"tvList":[
+				{
+					"sniff":true,
+					"tvUrl":"http://39.134.115.163:8080/PLTV/88888910/224/3221225626/index.m3u8#mp4",
+					"tvUrlTips":"HD"
+				},
+				{
+					"sniff":true,
+					"tvUrl":"http://39.135.33.12/PLTV/77777777/224/3221226648/index.m3u8#mp4",
+					"tvUrlTips":"1080P"
+				}
+			],
+			"tvLogo":"",
+			"tvName":"CCTV9纪录-HD",
+			"uiType":"NotEPG"
+		},
+		{
+			"epgIndex":"",
+			"tvList":[
+				{
+					"sniff":true,
+					"tvUrl":"http://39.134.115.163:8080/PLTV/88888910/224/3221225627/index.m3u8",
+					"tvUrlTips":"HD"
+				},
+				{
+					"sniff":true,
+					"tvUrl":"http://39.135.33.12/PLTV/77777777/224/3221226640/index.m3u8#mp4",
+					"tvUrlTips":"1080P"
+				}
+			],
+			"tvLogo":"",
+			"tvName":"CCTV10科教-HD",
+			"uiType":"NotEPG"
+		},
+		{
+			"epgIndex":"",
+			"tvList":[
+				{
+					"sniff":true,
+					"tvUrl":"http://39.134.115.163:8080/PLTV/88888910/224/3221225628/index.m3u8#mp4",
+					"tvUrlTips":"HD"
+				},
+				{
+					"sniff":true,
+					"tvUrl":"http://39.135.33.12/PLTV/77777777/224/3221226816/index.m3u8#mp4",
+					"tvUrlTips":"1080P"
+				}
+			],
+			"tvLogo":"",
+			"tvName":"CCTV11戏曲-HD",
+			"uiType":"NotEPG"
+		},
+		{
+			"epgIndex":"",
+			"tvList":[
+				{
+					"sniff":true,
+					"tvUrl":"http://39.134.115.163:8080/PLTV/88888910/224/3221225639/index.m3u8#mp4",
+					"tvUrlTips":"HD"
+				},
+				{
+					"sniff":true,
+					"tvUrl":"http://39.135.33.12/PLTV/77777777/224/3221226715/index.m3u8#mp4",
+					"tvUrlTips":"1080P"
+				}
+			],
+			"tvLogo":"",
+			"tvName":"CCTV14少儿-HD",
+			"uiType":"NotEPG"
+		},
+		{
+			"epgIndex":"",
+			"tvList":[
+				{
+					"sniff":true,
+					"tvUrl":"http://39.134.115.163:8080/PLTV/88888910/224/3221225641/index.m3u8#mp4",
+					"tvUrlTips":"HD"
+				},
+				{
+					"sniff":true,
+					"tvUrl":"http://39.135.33.12/PLTV/77777777/224/3221226818/index.m3u8#mp4",
+					"tvUrlTips":"1080P"
+				}
+			],
+			"tvLogo":"",
+			"tvName":"CCTV15音乐-HD",
+			"uiType":"NotEPG"
+		},
+		{
+			"epgIndex":"",
+			"tvList":[
+				{
+					"sniff":true,
+					"tvUrl":"http://39.134.168.91/PLTV/1/224/3221225528/index.m3u8",
+					"tvUrlTips":"HD"
+				},
+				{
+					"sniff":true,
+					"tvUrl":"http://39.135.33.12/PLTV/77777777/224/3221226654/index.m3u8#mp4",
+					"tvUrlTips":"1080P"
+				}
+			],
+			"tvLogo":"",
+			"tvName":"广东卫视-HD",
+			"uiType":"NotEPG"
+		},
+		{
+			"epgIndex":"",
+			"tvList":[
+				{
+					"sniff":true,
+					"tvUrl":"http://39.134.168.91/PLTV/1/224/3221225594/index.m3u8",
+					"tvUrlTips":"HD"
+				},
+				{
+					"sniff":true,
+					"tvUrl":"http://39.135.33.12/PLTV/77777777/224/3221226666/index.m3u8#mp4",
+					"tvUrlTips":"1080P"
+				}
+			],
+			"tvLogo":"",
+			"tvName":"天津卫视-HD",
+			"uiType":"NotEPG"
+		},
+		{
+			"epgIndex":"",
+			"tvList":[
+				{
+					"sniff":true,
+					"tvUrl":"http://39.134.115.163:8080/PLTV/88888910/224/3221225738/index.m3u8#mp4",
+					"tvUrlTips":"HD"
+				},
+				{
+					"sniff":true,
+					"tvUrl":"http://39.135.33.12/PLTV/77777777/224/3221226662/index.m3u8#mp4",
+					"tvUrlTips":"1080P"
+				}
+			],
+			"tvLogo":"",
+			"tvName":"山东卫视-HD",
+			"uiType":"NotEPG"
+		},
+		{
+			"epgIndex":"",
+			"tvList":[
+				{
+					"sniff":true,
+					"tvUrl":"http://39.134.115.163:8080/PLTV/88888910/224/3221225746/index.m3u8#mp4",
+					"tvUrlTips":"HD"
+				}
+			],
+			"tvLogo":"",
+			"tvName":"江西卫视-HD",
+			"uiType":"NotEPG"
+		},
+		{
+			"epgIndex":"",
+			"tvList":[
+				{
+					"sniff":true,
+					"tvUrl":"http://39.134.115.163:8080/PLTV/88888910/224/3221225740/index.m3u8#mp4",
+					"tvUrlTips":"HD"
+				}
+			],
+			"tvLogo":"",
+			"tvName":"湖北卫视-HD",
+			"uiType":"NotEPG"
+		},
+		{
+			"epgIndex":"",
+			"tvList":[
+				{
+					"sniff":true,
+					"tvUrl":"http://39.134.115.163:8080/PLTV/88888910/224/3221225734/index.m3u8#mp4",
+					"tvUrlTips":"HD"
+				}
+			],
+			"tvLogo":"",
+			"tvName":"重庆卫视-HD",
+			"uiType":"NotEPG"
+		},
+		{
+			"epgIndex":"",
+			"tvList":[
+				{
+					"sniff":true,
+					"tvUrl":"http://39.134.115.163:8080/PLTV/88888910/224/3221225736/index.m3u8#mp4",
+					"tvUrlTips":"HD"
+				}
+			],
+			"tvLogo":"",
+			"tvName":"黑龙江卫视-HD",
+			"uiType":"NotEPG"
+		},
+		{
+			"epgIndex":"",
+			"tvList":[
+				{
+					"sniff":true,
+					"tvUrl":"http://39.134.168.91/PLTV/1/224/3221225504/index.m3u8",
+					"tvUrlTips":"HD"
+				}
+			],
+			"tvLogo":"",
+			"tvName":"东方卫视-HD",
+			"uiType":"NotEPG"
+		},
+		{
+			"epgIndex":"",
+			"tvList":[
+				{
+					"sniff":true,
+					"tvUrl":"http://39.134.168.91/PLTV/1/224/3221225590/index.m3u8",
+					"tvUrlTips":"HD"
+				}
+			],
+			"tvLogo":"",
+			"tvName":"辽宁卫视-HD",
+			"uiType":"NotEPG"
+		},
+		{
+			"epgIndex":"",
+			"tvList":[
+				{
+					"sniff":true,
+					"tvUrl":"http://39.134.115.163:8080/PLTV/88888910/224/3221225657/index.m3u8#mp4",
+					"tvUrlTips":"HD"
+				}
+			],
+			"tvLogo":"",
+			"tvName":"东南卫视-HD",
+			"uiType":"NotEPG"
+		},
+		{
+			"epgIndex":"",
+			"tvList":[
+				{
+					"sniff":true,
+					"tvUrl":"http://39.134.115.163:8080/PLTV/88888910/224/3221225741/index.m3u8#mp4",
+					"tvUrlTips":"HD"
+				}
+			],
+			"tvLogo":"",
+			"tvName":"深圳卫视-HD",
+			"uiType":"NotEPG"
+		}
+	],
+	"fastVideoList":[]
+}
