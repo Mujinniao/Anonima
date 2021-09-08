@@ -1,22 +1,7 @@
 {
 	"searchConfig":[
-	  {
-			"configName":"海绵",
-			"configType":"WebPage",
-			"extensions":"unknown",
-			"itemNameRegex":"<a class=\"mo-part-btns mo-fsxs-14px mo-bord-muted mo-bord-round mo-cols-show mo-wrap-arow mo-lhxs-40px mo-back-click mo-back-write\" href=\".*\" target=\"_self\">(.*)</a></li>",
-			"itemUrlRegex":"<a class=\"mo-part-btns mo-fsxs-14px mo-bord-muted mo-bord-round mo-cols-show mo-wrap-arow mo-lhxs-40px mo-back-click mo-back-write\" href=\"(.*)\" target=\"_self\">.*</a></li>",
-			"searchNameRegex":"<h1 class=\"mo-wrap-arow mo-fsxs-16px mo-fssm-18px\"><a href=\"/index.php/vod/detail/id/\\d*\\.html\">(.*)</a></h1>",
-			"searchPictureRegex":"<a class=\"mo-situ-pics mo-situ-lazy mo-lazy-color mo-bord-round mo-cols-rows mo-lazy-highs mo-byxs-2by3\" href=\".*\" data-original=\"(.*?)\">",
-			"searchStateRegex":"<span class=\"mo-situ-rema mo-part-ramp mo-fsxs-12px mo-text-white mo-coxs-center\">(.*?)</span>",
-			"searchTypeRegex":"分类:&nbsp;</span><a href=\".*\" target=\"_blank\">(.*?)<",
-			"searchUrl":"https://www.haimianys.com/index.php/vod/search.html?wd={SearchWord}",
-			"searchUrlRegex":"<h1 class=\"mo-wrap-arow mo-fsxs-16px mo-fssm-18px\"><a href=\"(/index.php/vod/detail/id/\\d*\\.html)\">.*</a></h1>",
-			"searchYearRegex":"年份:&nbsp;</span><a href=\".*\" target=\"_blank\">(.*)</a>",
-			"usable":true
-		},
 		{
-			"configName":"1080P",
+			"configName":"枫林网",
 			"configType":"WebPage",
 			"itemNameRegex":"<li class=\".*\"><a class=\".*\" href=\".*play/.*\">(.*?)</a></li>",
 			"itemUrlRegex":"<li class=\".*\"><a class=\".*\" href=\"(.*play/.*)\">.*</a></li>",
@@ -39,18 +24,6 @@
 			"searchUrl":"POST:http://m.imomoe.ai/search.asp?searchword={SearchWordGBK}",
 			"searchUrlRegex":"<a href=\"(.*?)\" class=\"\"> <img class=\"lazy\" data-original=\".*\" alt=\".*\" src=",
 			"searchYearRegex":"",
-			"usable":true
-		},
-		{
-			"configName":"哈哩dm",
-			"configType":"WebPage",
-			"itemNameRegex":"<li><a href=\"/play/.*.html\">(.*)</a></li>",
-			"itemUrlRegex":"<li><a href=\"(/play/.*.html)\">.*</a></li>",
-			"searchNameRegex":"<a href=\".*\" title=\"(.*)\"><h1 class=\".*\">",
-			"searchPictureRegex":"data-echo=\"(.*)\"></div>",
-			"searchStateRegex":"<li class=\"ellipsis-1\">状态：(.*)</li>",
-			"searchUrl":"https://m.halitv.com/search/?c=so&module=video&wd={SearchWord}",
-			"searchUrlRegex":"<a href=\"(.*)\" title=\".*\"><h1 class=\".*\">",
 			"usable":true
 		},
 		{
@@ -82,18 +55,6 @@
 			"usable":true
 		},
 		{
-			"configName":"九七",
-			"configType":"WebPage",
-			"itemNameRegex":"<li><a title=\".*\" href=\".*/play.*\" target=\"_self\">(.*?)</a></li>",
-			"itemUrlRegex":"<li><a title=\".*\" href=\"(.*/play.*)\" target=\"_self\">.*</a></li>",
-			"searchNameRegex":"lazyload\" href=\".*\" title=\"(.*?)\" data-original=\".*\">",
-			"searchPictureRegex":"lazyload\" href=\".*\" title=\".*\" data-original=\"(.*?)\">",
-			"searchStateRegex":"<span class=\"pic-text text-right\">(.*?)</span>",
-			"searchUrl":"http://www.97kpz.com/search.php?page=1&searchword={SearchWord}&searchtype=",
-			"searchUrlRegex":"lazyload\" href=\"(.*?)\" title=\".*\" data-original=\".*\">",
-			"usable":true
-		},
-		{
 			"configName":"流年",
 			"configType":"WebPage",
 			"itemNameRegex":"<li class=\".*\"> <a class=\".*\" href=\".*/sid/1/nid/.*\">(.*?)</a> ",
@@ -105,19 +66,6 @@
 			"searchUrl":"http://www.liunianys.cn/index.php/vod/search.html?wd={SearchWord}",
 			"searchUrlRegex":"<h1 class=\".*\"><a href=\"(.*?)\"><span class=\".*\">.*</span></a></h1>",
 			"searchYearRegex":"年份：</span><a href=\".*\" target=\"_blank\">(.*?)</a>&nbsp;</li>",
-			"usable":true
-		},
-		{
-			"configName":"迪迪",
-			"configType":"WebPage",
-			"itemNameRegex":"<li class=\".*\"><a class=\".*\" href=\".*/vod/play/.*\">(.*?)</a></li>",
-			"itemUrlRegex":"<li class=\".*\"><a class=\".*\" href=\"(.*/vod/play/.*)\">.*</a></li>",
-			"searchNameRegex":"lazyload\" href=\".*\" title=\"(.*?)\" data-original=\".*\"><span class=\"play hidden-xs\">",
-			"searchPictureRegex":"lazyload\" href=\".*\" title=\".*\" data-original=\"(.*?)\"><span class=\"play hidden-xs\"></span>",
-			"searchStateRegex":"<span class=\"pic-text text-right\">(.*?)</span></a>",
-			"searchTypeRegex":"分类：</span>(.*?)<span class=\"split-line\"></span><span class=\"text-muted hidden-xs\">地区：</span>",
-			"searchUrl":"https://tv758.com/index.php/vod/search.html?wd={SearchWord}&submit=",
-			"searchUrlRegex":"lazyload\" href=\"(.*?)\" title=\".*\" data-original=\".*\"><span class=\"play hidden-xs\">",
 			"usable":true
 		},
 		{
@@ -136,22 +84,7 @@
 			"usable":true
 		},
 		{
-			"configName":"干饭",
-			"configType":"WebPage",
-			"itemNameRegex":"><a href=\".*play/\\d*-1-\\d*\\.html\">(.*?)</a></li>",
-			"itemSkipRegex":"<a href=\"(.*play/\\d*-1-\\d*\\.html)\">立即播放</a> ",
-			"itemUrlRegex":"><a href=\"(.*play/\\d*-1-\\d*\\.html)\">.*</a></li>",
-			"searchNameRegex":"lazyload\" href=\".*\" title=\"(.*?)\" data-original=\".*\">",
-			"searchPictureRegex":"lazyload\" href=\".*\" title=\".*\" data-original=\"(.*?)\">",
-			"searchStateRegex":"<span class=\"pic-text text-right\">(.*?)</span>",
-			"searchTypeRegex":"",
-			"searchUrl":"https://www.ganfantv.com/search/-------------.html?wd={SearchWord}&submit=",
-			"searchUrlRegex":"lazyload\" href=\"(.*?)\" title=\".*\" data-original=\".*\">",
-			"searchYearRegex":"",
-			"usable":true
-		},
-		{
-			"configName":"虐ta",
+			"configName":"捏他",
 			"configType":"WebPage",
 			"itemNameRegex":"<li><a title=\".*\" href=\"/.*\">(.*)</a></li>",
 			"itemUrlRegex":"<li><a title=\".*\" href=\"(/.*)\">.*</a></li>",
@@ -160,40 +93,6 @@
 			"searchStateRegex":"<span class=\"so-imgTag_rb\">(.*)</span>",
 			"searchUrl":"http://www.nieta.co/vodsearch.html?wd={SearchWord}",
 			"searchUrlRegex":"<a title=\".*\" href=\"(/voddetail/.*.html)\" target=\"_blank\"",
-			"usable":true
-		},
-		{
-			"configName":"南瓜五",
-			"configType":"WebPage",
-			"encrypted":true,
-			"itemNameRegex":"vaS5MY4+vagpmahTz8KVvrjoyuSX1uEYiaXTzWyHiYA6xaw6MIgOxaw6xeB4ma7EiZA4MY4/LIR=",
-			"itemUrl":"n7ktyxjZ0hKT1gHTrWqHjsXtyWqt2Z7FitKUzxiOwWmt13wYlYjFK8KYKuttm7KUzxjdz8KPmbVYow==",
-			"itemUrlRegex":"vaS5MY4+vagpmahTz8KVvrjoyuSX1uEYiaXTzWyHiYpPLtSsLYVSMKSsLtRP0bqO1esYvYA6vc==",
-			"searchNameRegex":"vagpy8SX29NHi3z5zaKQMxd5yTdE18hs0WB3iYd42uKuvriPLYipmatV1aJHiYpPLZG5iYdsyxqXMWHT0Wm51uhEvriPLYip29qB1aJHi3dXzaq51u2OmaHRlZg7NeJFiZAG29dX1YdZ1ahU2UVY1uHVzrdVzxXVMWj3MWNYvYA6veHU2ahPvZRQyIA=",
-			"searchPictureRegex":"vagpy8SX29NHi3z5zaKQMxd5yTdE18hs0WB3iYd42uKuvriPLYipmatV1aJHiYA6iYdsyxqXMWHT0Wm51uhEvri4MY4/Lrip29qB1aJHi3dXzaq51u2OmaHRlZg7NeJFiZAG29dX1YdZ1ahU2UVY1uHVzrdVzxXVMWj3MWNYvYA6veHU2ahPvZRQyIA=",
-			"searchStateRegex":"vaS5iakEyxkUvriPLuX5zaqt1Y7A2Ti+vbkRyWA+BA68B4edFFT0veHU2ahPvYpPLYsGM8S5vp==",
-			"searchUrl":"JgHIKf54mbqRlYGQm9m9MuBX1um7yIJ7MukQ1rHUzWhTy8pQv7dQ29qe18qBvxEYm8wYlYjFJ8KX2uk4K8HTzbVYorzizWhszxiHnTjK28KTMJh3zWBViZ4Yn7mtytz5zxmK28KTwWmt13qHi3V=",
-			"searchUrlRegex":"vagpy8SX29NHi3z5zaKQMxd5yTdE18hs0WB3iYd42uKuvri4MY4/LripmatV1aJHiYA6iYdsyxqXMWHT0Wm51uhEvriPLYip29qB1aJHi3dXzaq51u2OmaHRlZg7NeJFiZAG29dX1YdZ1ahU2UVY1uHVzrdVzxXVMWj3MWNYvYA6veHU2ahPvZRQyIA=",
-			"searchYearRegex":"vbkRyWApy8SX29NHiYA60atszaKPMxXUiZFtP1IsPCvQQj4GM9kRyWA+LhSsnUqHLw==",
-			"sniffTargetExtensions":"m3u8",
-			"sniffTargetRegex":"0bqV2bN/lYGQyxd5M3qX19X5yWHOyrB80xcQ2ahT28JQ0aSUM3d42eA6",
-			"usable":true
-		},
-		{
-			"configName":"六度",
-			"configType":"WebPage",
-			"encrypted":true,
-			"extensions":"unknown",
-			"itemNameRegex":"vaS5vZSXibq5maStvriPLYip0bjtzZVYMY52ze4QNeH2ze52MuXV1WRYibqX2umtmfVYx9kt1ayYvYpPLYsGM8g+veHE0IA=",
-			"itemUrlRegex":"vaS5vZSXibq5maStvriPLYip0bjtzZVYLeA6xaw6MUcQxaw6xeB4ma7ELripmahTz8KVvrjo28KEzYi+MY4GM8g+veHE0IA=",
-			"searchNameRegex":"vapUiakEyxkUvrjV0xqEzri+vagp0bjtzZVYMY4YvYpPLYsGM8g+veH4NUA=",
-			"searchPictureRegex":"vagpy8SX29NHiYA6iYd42uKuvriPLYipmatV1aJHiYA6iYdX1bwHiYA6iYdsyxqXMWHT0Wm51uhEvryYLeA6vTsYvp==",
-			"searchTypeRegex":"BFaFBzCMFFT0veHU2ahPvYpPLZG5vc==",
-			"searchUrl":"JgHIKf54mbqRlYGQkuwPlIsAmaHRMuBtmeG/yU7UzWhTy8puJaHUmgjQzbsHnTj9zeiCi3OIzWhTy8Xx19jsorjH",
-			"searchUrlRegex":"vapUiakEyxkUvrjV0xqEzri+vagp0bjtzZVYLeA6Lri+MY4GM8g+veH4NUA=",
-			"searchYearRegex":"B1uVBMPHFFT0veHU2ahPvYpPLZG5vc==",
-			"sniffTargetExtensions":"m3u8",
-			"sniffTargetRegex":"0bqV2bN/lYGQMY4Q0aSUMTA6xeBON9JA",
 			"usable":true
 		},
 		{
@@ -212,7 +111,7 @@
 			"usable":true
 		},
 		{
-			"configName":"粑粑",
+			"configName":"88影视",
 			"configType":"WebPage",
 			"itemNameRegex":"<a href=\".*-src-1-num-.*\" title=\".*\">(.*?)</a></li>",
 			"itemUrlRegex":"<a href=\"(.*-src-1-num-.*)\" title=\".*\">.*</a></li>",
@@ -241,30 +140,6 @@
 			"usable":true
 		},
 		{
-			"configName":"枫林",
-			"configType":"WebPage",
-			"itemNameRegex":"<li class=\".*\"><a class=\".*\" href=\".*play/.*\">(.*?)</a></li>",
-			"itemUrlRegex":"<li class=\".*\"><a class=\".*\" href=\"(.*play/.*)\">.*</a></li>",
-			"searchNameRegex":"lazyload\" href=\".*\" title=\"(.*?)\" data-original=\".*\">",
-			"searchPictureRegex":"lazyload\" href=\".*\" title=\".*\" data-original=\"(.*?)\">",
-			"searchStateRegex":"<span class=\"pic-text text-center\">(.*?)</span></a>",
-			"searchUrl":"https://imaple.co/search.html?wd={SearchWord}&submit=",
-			"searchUrlRegex":"lazyload\" href=\"(.*?)\" title=\".*\" data-original=\".*\">",
-			"usable":true
-		},
-		{
-			"configName":"万影网",
-			"configType":"WebPage",
-			"itemNameRegex":"<a href=\".*/play-1-.*\" target=\"_self\" title=\".*\">(.*?)</a></li>",
-			"itemUrlRegex":"<a href=\"(.*/play-1-.*)\" target=\"_self\" title=\".*\">.*</a></li>",
-			"searchNameRegex":"<h2><a href=\".*\" title=\".*\" target=\"_self\">(.*?)</a></h2>",
-			"searchPictureRegex":"src=\"(.*?)\" alt=\".*\">",
-			"searchStateRegex":"<p>状态：(.*?)</p>",
-			"searchUrl":"http://m.wydy8.com/vod-search-pg-1-wd-{SearchWord}.html",
-			"searchUrlRegex":"<h2><a href=\"(.*?)\" title=\".*\" target=\"_self\">.*</a></h2>",
-			"usable":true
-		},
-		{
 			"configName":"二哈",
 			"configType":"WebPage",
 			"itemNameRegex":"<li><a href=\".*play/.*\">(.*?)</a></li>",
@@ -274,20 +149,6 @@
 			"searchStateRegex":"<span class=\"pic-text text-right\">(.*?)</span>",
 			"searchUrl":"https://www.2hys.com/vodsearch/page/1/wd/{SearchWord}.html",
 			"searchUrlRegex":"lazyload\" href=\"(.*?)\" title=\".*\" data-original=\".*\">",
-			"usable":true
-		},
-		{
-			"configName":"虎看",
-			"configType":"WebPage",
-			"itemNameRegex":"<a href=\".*vodplayhtml/\\d*-1-\\d*\\.html\">(.*?)</a></li>",
-			"itemUrlRegex":"<a href=\"(.*vodplayhtml/\\d*-1-\\d*\\.html)\">.*</a></li>",
-			"searchNameRegex":"lazyload\" href=\".*\" title=\"(.*?)\" data-original=\".*\">",
-			"searchPictureRegex":"lazyload\" href=\".*\" title=\".*\" data-original=\"(.*?)\">",
-			"searchStateRegex":"<span class=\"pic-text text-right\">(.*?)</span>",
-			"searchTypeRegex":"类型：</span>(.*?)<span class=\"split-line\"></span><span class=\"text-muted\">地区",
-			"searchUrl":"https://www.hukanyy.com/index.php?m=vod-search-pg-1-wd-{SearchWord}.html",
-			"searchUrlRegex":"lazyload\" href=\"(.*?)\" title=\".*\" data-original=\".*\">",
-			"searchYearRegex":"年份：</span>(.*?)</span></p>",
 			"usable":true
 		},
 		{
@@ -316,21 +177,6 @@
 			"searchUrl":"http://m.fystt.com/search-wd-{SearchWord}.html",
 			"searchUrlRegex":"<a class=\"link-hover\" href=\"(.*?)\" title=\".*\"> <img referrerPolicy=\"no-referrer\" class=\"lazy\" src=\".*\" alt=",
 			"sniffExcludeRegex":"",
-			"sniffTargetExtensions":"",
-			"sniffTargetRegex":"",
-			"usable":true
-		},
-		{
-			"configName":"在线",
-			"configType":"WebPage",
-			"itemNameRegex":"<li class=\".*\"><a class=\".*\" href=\".*play/.*\">(.*?)</a></li>",
-			"itemUrlRegex":"<li class=\".*\"><a class=\".*\" href=\"(.*play/.*)\">.*</a></li>",
-			"searchNameRegex":"<h1 class=\"fed-part-eone fed-font-xvi\"><a href=\".*\"><span class=\"fed-text-green fed-text-bold\">(.*?)</span></a></h1>",
-			"searchPictureRegex":"data-original=\"(.*?)\"><span class=",
-			"searchStateRegex":"<span class=\"fed-list-remarks fed-font-xii fed-text-white fed-text-center\">(.*?)</span></a>",
-			"searchUrl":"http://tv.360i.top/so.html?wd={SearchWord}",
-			"searchUrlRegex":"<h1 class=\"fed-part-eone fed-font-xvi\"><a href=\"(.*?)\"><span class=\"fed-text-green fed-text-bold\">.*</span></a></h1>",
-			"sniffExcludeRegex":".*xarxrljt.*",
 			"sniffTargetExtensions":"",
 			"sniffTargetRegex":"",
 			"usable":true
