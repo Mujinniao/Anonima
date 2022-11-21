@@ -1,0 +1,211 @@
+@import "../../style/base.styl"
+
+$info-item-height = 68rem
+$info-item-border = 1rem
+$info-item-padding = 5rem
+$compressed-file-background-color = #228eff
+$image-width = $info-item-height - ($info-item-border * 2)
+
+.to-upload-image-list-card {
+  position relative
+  width 100%
+  box-sizing border-box
+  margin-top 6rem
+
+  .header {
+    width 100%
+    height 30rem
+    box-sizing border-box
+    font-size 12rem
+    display flex
+    align-items center
+    justify-content space-between
+    padding-bottom 6rem
+  }
+
+  .body {
+    width 100%
+    height 100%
+    max-height 170rem
+    overflow-y auto
+    box-sizing border-box
+    padding 10rem
+    border 1rem solid var(--border-color)
+    margin-top 10rem
+
+    &::-webkit-scrollbar {
+      width 5rem
+    }
+
+    &::-webkit-scrollbar-thumb {
+      border-radius 2rem
+    }
+
+    .image-uploading-info-box {
+      position relative
+      width 100%
+      box-sizing border-box
+      padding 0
+      margin 0
+
+      .image-uploading-info-item {
+        position relative
+        box-sizing border-box
+        width 100%
+        height $info-item-height
+        border $info-item-border solid var(--border-color)
+        border-radius 5rem
+        margin-bottom 10rem
+        overflow hidden
+        font-size 15rem
+        padding-left $image-width
+        transition all 0.3s ease
+
+        &.disable {
+          pointer-events none
+          cursor not-allowed
+        }
+
+        &:last-child {
+          margin-bottom 0
+        }
+
+        &:hover {
+          box-shadow 0 0 5rem var(--shadow-hover-color)
+        }
+
+        .left-image-box {
+          position absolute
+          top 0
+          left 0
+          width $image-width
+          height 100%
+          box-sizing border-box
+          margin-right 5rem
+
+          img {
+            object-fit cover
+            width 100%
+            height 100%
+            overflow hidden
+            cursor pointer
+            border-top-left-radius 5rem
+            border-bottom-left-radius 5rem
+          }
+        }
+
+
+        .right-operation-box {
+          position relative
+          width 100%
+          height 100%
+          box-sizing border-box
+          padding $info-item-padding 20rem $info-item-padding $info-item-padding
+
+          .top, .bottom {
+            width 100%
+            height 50%
+            box-sizing border-box
+            padding 0 5rem
+          }
+
+          .top {
+            display flex
+            justify-content space-between
+
+            .image-name,
+            .image-info {
+              display flex
+              align-items center
+              box-sizing border-box
+              height 100%
+            }
+
+            .image-name {
+              font-size 13rem
+              overflow hidden
+              text-overflow ellipsis
+              white-space nowrap
+            }
+
+            .image-info {
+              font-size 12rem
+
+              .item {
+                padding 1rem 4rem
+                background var(--third-background-color)
+                border-radius 2rem
+                margin-left 10rem
+
+                &.compressed {
+                  color $compressed-file-background-color
+                }
+              }
+            }
+          }
+
+
+          .bottom {
+            display flex
+            align-items center
+
+            &.rename-operation {
+
+              .el-checkbox {
+                margin-right 20rem
+              }
+
+              .rename-input {
+                input {
+                  height 23rem
+                  line-height 23rem
+                }
+              }
+            }
+          }
+        }
+
+
+        .upload-status-box {
+          box-sizing border-box
+          color #fff
+          position absolute
+          right -17rem
+          top -7rem
+          width 46rem
+          height 26rem
+          text-align center
+          transform rotate(45deg)
+          box-shadow 0 1rem 1rem var(--border-color)
+
+          &.wait-upload {
+            background var(--await-upload-color)
+          }
+
+          &.uploading {
+            background var(--uploading-color)
+          }
+
+          &.uploaded {
+            background var(--uploaded-color)
+          }
+
+          i {
+            font-size 12rem
+            margin-top 12rem
+            transform rotate(-45deg)
+          }
+        }
+
+        .remove-to-upload-image {
+          position absolute
+          bottom 5rem
+          right 5rem
+          cursor pointer
+        }
+
+      }
+    }
+
+  }
+}
