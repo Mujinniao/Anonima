@@ -7,6 +7,6 @@ https://Mujinniao.github.io/CatVodTVJsonEditor/
 
 https://Mujinniao.github.io/box/jar/tang/tangs.json
 
-https://Mujinniao.github.io/box/js/
+https://Mujinniao.github.io/box/js/js.json
 
 
