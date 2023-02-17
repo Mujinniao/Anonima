@@ -9,4 +9,8 @@ https://Mujinniao.github.io/box/jar/tang/tangs.json
 
 https://Mujinniao.github.io/box/js/js.json
 
+https://Mujinniao.github.io/yuedu/
+
+https://Mujinniao.github.io/yuedu/dy.json
+
 
