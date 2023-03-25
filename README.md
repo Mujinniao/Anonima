@@ -5,14 +5,13 @@ https://Mujinniao.github.io/haikuo/hikermovie.json
 
 https://Mujinniao.github.io/CatVodTVJsonEditor/
 
-https://Mujinniao.github.io/box/jar/tang/tangs.json
+https://Mujinniao.github.io/box/jar/fty.json
 
-https://Mujinniao.github.io/box/js/js.json
+https://Mujinniao.github.io/box/js/
 
 https://Mujinniao.github.io/yuedu/
 
 https://Mujinniao.github.io/yuedu/dy.json
 
-https://Mujinniao.github.io/box/jar/my/token.txt
-
+https://Mujinniao.github.io/box/jar/my/
 
