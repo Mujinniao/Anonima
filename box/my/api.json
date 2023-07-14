@@ -1,0 +1,401 @@
+{
+  "spider": "https://ghproxy.com/https://raw.githubusercontent.com/Mujinniao/my/main/box/custom_spider.jar",
+  "lives": [
+    {
+      "name": "live",
+      "type": 0,
+      "url": "./live.txt",
+	  "epg":"http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    }
+  "sites": [ 
+  {
+    "key":"豆瓣",
+    "name":"豆瓣",
+    "type":3,
+    "api":"https://hjdhnx.github.io/dr_py/libs/drpy2.min.js",
+    "ext":"https://hjdhnx.github.io/dr_py/js/drpy.js"
+  },
+    {
+      "key": "量子",
+      "name": "量子",
+      "type": 0,
+      "api": "https://cj.lziapi.com/api.php/provide/vod/at/xml/",
+      "searchable": 1,
+      "changeable": 1,
+      "categories": [
+        "国产动漫",
+        "日韩动漫",
+        "国产剧",
+        "韩国剧",
+        "日本剧",
+        "电影片",
+        "连续剧",
+        "综艺片",
+        "动漫片",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "台湾剧",
+        "香港剧",
+        "欧美剧",
+        "记录片",
+        "海外剧",
+        "泰国剧",
+        "大陆综艺",
+        "港台综艺",
+        "日韩综艺",
+        "欧美综艺",
+        "欧美动漫",
+        "港台动漫",
+        "海外动漫",
+        "体育",
+        "足球",
+        "篮球",
+        "网球",
+        "斯诺克"
+      ]
+    },
+    {
+      "key": "非凡",
+      "name": "非凡",
+      "type": 0,
+      "api": "http://cj.ffzyapi.com/api.php/provide/vod/at/xml/",
+      "searchable": 1,
+      "changeable": 1,
+      "categories": [
+        "国产动漫",
+        "日韩动漫",
+        "国产剧",
+        "韩国剧",
+        "日本剧",
+        "电影片",
+        "连续剧",
+        "综艺片",
+        "动漫片",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "香港剧",
+        "欧美剧",
+        "记录片",
+        "台湾剧",
+        "海外剧",
+        "泰国剧",
+        "大陆综艺",
+        "港台综艺",
+        "日韩综艺",
+        "欧美综艺",
+        "欧美动漫",
+        "港台动漫",
+        "海外动漫"
+      ]
+    },
+	{
+	  "key":"kuyun77",
+	  "name":"ky77",
+	  "type":3,
+	  "api":"https://hjdhnx.github.io/dr_py/libs/drpy2.min.js",
+	  "playerType":"1",
+	  "ext":"https://hjdhnx.github.io/dr_py/js/酷云77.js"
+	},
+	{
+	  "key":"荐片",
+	  "name":"荐片",
+	  "type":3,
+	  "api":"https://hjdhnx.github.io/dr_py/libs/drpy2.min.js",
+	  "playerType":"1",
+	  "ext":"https://hjdhnx.github.io/dr_py/js/荐片.js"
+	},
+	{
+	  "key":"爱看bot",
+	  "name":"爱看bot",
+	  "type":3,
+	  "api":"csp_Ikanbot",
+	  "searchable": 1,
+      "changeable": 1
+	},
+	{
+	  "key":"哔哩兔",
+	  "name":"哔哩兔",
+	  "type":3,
+	  "api":"csp_Blitu",
+	  "searchable": 1,
+      "changeable": 1
+	},
+	{
+	  "key":"农民",
+	  "name":"农民",
+	  "type":3,
+	  "api":"csp_Nongm",
+	  "searchable": 1,
+      "changeable": 1
+	},
+	{
+	  "key":"奈落",
+	  "name":"奈落",
+	  "type":3,
+	  "api":"csp_Nailu",
+	  "searchable": 1,
+      "changeable": 1
+	},
+	{
+	  "key":"干饭",
+	  "name":"干饭",
+	  "type":3,
+	  "api":"csp_Ganfa",
+	  "searchable": 1,
+      "changeable": 1
+	},
+	{
+	  "key":"Voflix",
+	  "name":"Voflix",
+	  "type":3,
+	  "api":"csp_Voflix",
+	  "searchable": 1,
+      "changeable": 1
+	},
+	{
+	  "key":"Freeok",
+	  "name":"Freeok",
+	  "type":3,
+	  "api":"csp_Freeok",
+	  "searchable": 1,
+      "changeable": 1
+	},
+	{
+	  "key":"追剧兔",
+	  "name":"追剧兔",
+	  "type":3,
+	  "api":"csp_Zhjut",
+	  "searchable": 1,
+      "changeable": 1
+	},
+	{
+	  "key":"皮皮鸭",
+	  "name":"皮皮鸭",
+	  "type":3,
+	  "api":"csp_Pipiy",
+	  "searchable": 1,
+      "changeable": 1
+	},
+	{
+	  "key":"影渣渣",
+	  "name":"影渣渣",
+	  "type":3,
+	  "api":"csp_Yingzz",
+	  "searchable": 1,
+      "changeable": 1
+	},
+	{
+	  "key":"达达龟",
+	  "name":"达达龟",
+	  "type":3,
+	  "api":"csp_Dadag",
+	  "searchable": 1,
+      "changeable": 1
+	},
+	{
+	  "key":"l0l",
+	  "name":"l0l",
+	  "type":3,
+	  "api":"csp_L0l",
+	  "searchable": 1,
+      "changeable": 1
+	},
+	{
+	  "key":"网飞",
+	  "name":"网飞",
+	  "type":3,
+	  "api":"csp_Wangfei",
+	  "searchable": 1,
+      "changeable": 1
+	},
+	{
+	  "key":"免费看",
+	  "name":"免费看",
+	  "type":3,
+	  "api":"csp_Mianfk",
+	  "searchable": 1,
+      "changeable": 1
+	},
+	{
+	  "key":"满大浪",
+	  "name":"满大浪",
+	  "type":3,
+	  "api":"csp_Mandl",
+	  "searchable": 1,
+      "changeable": 1
+	},
+    {
+      "key": "巴士",
+      "name": "巴士",
+      "type": 3,
+      "api": "csp_Dm84",
+      "searchable": 1,
+      "changeable": 1
+    },
+	{
+      "key": "萌蛋蛋",
+      "name": "萌蛋蛋",
+      "type": 3,
+      "api": "csp_Appys",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "http://app.mengdandan.com/xgapp.php/v1/"
+    },
+	{
+      "key": "爱迪",
+      "name": "爱迪",
+      "type": 3,
+      "api": "csp_Appys",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "https://aidiapp.xyz/xgapp.php/v2/"
+    },
+	{
+      "key": "996w",
+      "name": "996w",
+      "type": 3,
+      "api": "csp_Appys",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "https://w.996w.top/api.php/app/"
+    },
+	{
+      "key": "速看100",
+      "name": "速看100",
+      "type": 3,
+      "api": "csp_Appys",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "https://sk100.tv/api.php/app/"
+    },
+	{
+      "key": "AList",
+      "name": "AList",
+      "type": 3,
+      "api": "csp_AList",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": "./alist.json"
+    },
+	{
+      "key": "本地",
+      "name": "本地",
+      "type": 3,
+      "api": "csp_Local",
+      "searchable": 0,
+      "changeable": 0
+    },
+	{
+      "key": "WebDAV",
+      "name": "WebDAV",
+      "type": 3,
+      "api": "csp_WebDAV",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": "./webdav.json"
+    },
+    {
+      "key": "push_agent",
+      "name": "推送",
+      "type": 3,
+      "api": "csp_Push",
+      "searchable": 1,
+      "changeable": 0
+    }
+  ],
+   "doh": [
+    {
+      "name": "Google",
+      "url": "https://dns.google/dns-query",
+      "ips": [
+        "8.8.4.4",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "name": "Cloudflare",
+      "url": "https://cloudflare-dns.com/dns-query",
+      "ips": [
+        "1.1.1.1",
+        "1.0.0.1",
+        "2606:4700:4700::1111",
+        "2606:4700:4700::1001"
+      ]
+    },
+    {
+      "name": "AdGuard",
+      "url": "https://dns.adguard.com/dns-query",
+      "ips": [
+        "94.140.14.140",
+        "94.140.14.141"
+      ]
+    },
+    {
+      "name": "DNSWatch",
+      "url": "https://resolver2.dns.watch/dns-query",
+      "ips": [
+        "84.200.69.80",
+        "84.200.70.40"
+      ]
+    },
+    {
+      "name": "Quad9",
+      "url": "https://dns.quad9.net/dns-quer",
+      "ips": [
+        "9.9.9.9",
+        "149.112.112.112"
+      ]
+    }
+  ],
+   "rules": [
+    {
+      "name": "量子廣告",
+      "hosts": [
+        "vip.lz",
+        "hd.lz"
+      ],
+      "regex": [
+        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+      ]
+    },
+    {
+      "name": "非凡廣告",
+      "hosts": [
+        "vip.ffzy",
+        "hd.ffzy"
+      ],
+      "regex": [
+        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+      ]
+    },
+    {
+      "name": "火山嗅探",
+      "hosts": [
+        "huoshan.com"
+      ],
+      "regex": [
+        "item_id="
+      ]
+    },
+    {
+      "name": "抖音嗅探",
+      "hosts": [
+        "douyin.com"
+      ],
+      "regex": [
+        "is_play_url="
+      ]
+    }
+  ]
+}
