@@ -116,6 +116,20 @@
 	  "playerType":"1",
 	  "ext":"https://hjdhnx.github.io/dr_py/js/荐片.js"
 	},
+	  {
+	  "key":"蘑菇",
+	  "name":"蘑菇",
+	  "type":3,
+	  "api":"https://hjdhnx.github.io/dr_py/libs/drpy2.min.js",
+	  "ext":"https://hjdhnx.github.io/dr_py/js/蘑菇.js"
+	},
+	   {
+	  "key":"影探",
+	  "name":"影探",
+	  "type":3,
+	  "api":"https://hjdhnx.github.io/dr_py/libs/drpy2.min.js",
+	  "ext":"https://hjdhnx.github.io/dr_py/js/影探[V2].js"
+	},
 	{
 	  "key":"爱看bot",
 	  "name":"爱看bot",
