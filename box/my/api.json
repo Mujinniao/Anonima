@@ -108,14 +108,6 @@
 	  "playerType":"1",
 	  "ext":"https://hjdhnx.github.io/dr_py/js/酷云77.js"
 	},
-	{
-	  "key":"荐片",
-	  "name":"荐片",
-	  "type":3,
-	  "api":"https://hjdhnx.github.io/dr_py/libs/drpy2.min.js",
-	  "playerType":"1",
-	  "ext":"https://hjdhnx.github.io/dr_py/js/荐片.js"
-	},
 	  {
 	  "key":"蘑菇",
 	  "name":"蘑菇",
@@ -130,22 +122,22 @@
 	  "api":"https://hjdhnx.github.io/dr_py/libs/drpy2.min.js",
 	  "ext":"https://hjdhnx.github.io/dr_py/js/影探[V2].js"
 	},
-	{
-	  "key":"爱看bot",
-	  "name":"爱看bot",
-	  "type":3,
-	  "api":"csp_Ikanbot",
-	  "searchable": 1,
-      "changeable": 1
-	},
-	{
-	  "key":"哔哩兔",
-	  "name":"哔哩兔",
-	  "type":3,
-	  "api":"csp_Blitu",
-	  "searchable": 1,
-      "changeable": 1
-	},
+//	{
+//	  "key":"爱看bot",
+//	  "name":"爱看bot",
+//	  "type":3,
+//	  "api":"csp_Ikanbot",
+//	  "searchable": 1,
+//      "changeable": 1
+//	},
+//	{
+//	  "key":"哔哩兔",
+//	  "name":"哔哩兔",
+//	  "type":3,
+//	  "api":"csp_Blitu",
+//	  "searchable": 1,
+//      "changeable": 1
+//	},
 	{
 	  "key":"农民",
 	  "name":"农民",
