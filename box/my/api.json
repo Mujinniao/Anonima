@@ -1,5 +1,5 @@
 {
-  "spider": "https://ghproxy.com/https://raw.githubusercontent.com/Mujinniao/my/main/box/custom_spider.jar",
+  "spider": "https://ghproxy.com/https://raw.githubusercontent.com/Mujinniao/my/main/box/custom_spider.jar;md5;7bf3c353385902f90bcc43165f618119",
   "lives": [
     {
       "name": "live",
@@ -17,6 +17,64 @@
     "api":"https://hjdhnx.github.io/dr_py/libs/drpy2.min.js",
     "ext":"https://hjdhnx.github.io/dr_py/js/drpy.js"
   },
+  {
+	  "key":"kuyun77",
+	  "name":"ky77",
+	  "type":3,
+	  "api":"https://hjdhnx.github.io/dr_py/libs/drpy2.min.js",
+	  "playerType":"1",
+	  "ext":"https://hjdhnx.github.io/dr_py/js/酷云77.js"
+	},
+  {
+      "key": "萌蛋蛋",
+      "name": "萌蛋蛋",
+      "type": 3,
+      "api": "csp_Appys",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "http://app.mengdandan.com/xgapp.php/v1/"
+    },
+	{
+      "key": "爱迪",
+      "name": "爱迪",
+      "type": 3,
+      "api": "csp_Appys",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "https://aidiapp.xyz/xgapp.php/v2/"
+    },
+	{
+      "key": "996w",
+      "name": "996w",
+      "type": 3,
+      "api": "csp_Appys",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "https://w.996w.top/api.php/app/"
+    },
+	{
+      "key": "速看100",
+      "name": "速看100",
+      "type": 3,
+      "api": "csp_Appys",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "https://sk100.tv/api.php/app/"
+    },
+	{
+	  "key":"蘑菇",
+	  "name":"蘑菇",
+	  "type":3,
+	  "api":"https://hjdhnx.github.io/dr_py/libs/drpy2.min.js",
+	  "ext":"https://hjdhnx.github.io/dr_py/js/蘑菇.js"
+	},
+	   {
+	  "key":"影探",
+	  "name":"影探",
+	  "type":3,
+	  "api":"https://hjdhnx.github.io/dr_py/libs/drpy2.min.js",
+	  "ext":"https://hjdhnx.github.io/dr_py/js/影探[V2].js"
+	},
     {
       "key": "量子",
       "name": "量子",
@@ -100,43 +158,21 @@
         "海外动漫"
       ]
     },
-	{
-	  "key":"kuyun77",
-	  "name":"ky77",
-	  "type":3,
-	  "api":"https://hjdhnx.github.io/dr_py/libs/drpy2.min.js",
-	  "playerType":"1",
-	  "ext":"https://hjdhnx.github.io/dr_py/js/酷云77.js"
-	},
-	  {
-	  "key":"蘑菇",
-	  "name":"蘑菇",
-	  "type":3,
-	  "api":"https://hjdhnx.github.io/dr_py/libs/drpy2.min.js",
-	  "ext":"https://hjdhnx.github.io/dr_py/js/蘑菇.js"
-	},
-	   {
-	  "key":"影探",
-	  "name":"影探",
-	  "type":3,
-	  "api":"https://hjdhnx.github.io/dr_py/libs/drpy2.min.js",
-	  "ext":"https://hjdhnx.github.io/dr_py/js/影探[V2].js"
-	},
 //	{
 //	  "key":"爱看bot",
 //	  "name":"爱看bot",
 //	  "type":3,
 //	  "api":"csp_Ikanbot",
 //	  "searchable": 1,
-//      "changeable": 1
+//     "changeable": 1
 //	},
 //	{
 //	  "key":"哔哩兔",
 //	  "name":"哔哩兔",
 //	  "type":3,
-//	  "api":"csp_Blitu",
-//	  "searchable": 1,
-//      "changeable": 1
+//    "api":"csp_Blitu",
+//    "searchable": 1,
+//    "changeable": 1
 //	},
 	{
 	  "key":"农民",
@@ -250,42 +286,7 @@
       "searchable": 1,
       "changeable": 1
     },
-	{
-      "key": "萌蛋蛋",
-      "name": "萌蛋蛋",
-      "type": 3,
-      "api": "csp_Appys",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": "http://app.mengdandan.com/xgapp.php/v1/"
-    },
-	{
-      "key": "爱迪",
-      "name": "爱迪",
-      "type": 3,
-      "api": "csp_Appys",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": "https://aidiapp.xyz/xgapp.php/v2/"
-    },
-	{
-      "key": "996w",
-      "name": "996w",
-      "type": 3,
-      "api": "csp_Appys",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": "https://w.996w.top/api.php/app/"
-    },
-	{
-      "key": "速看100",
-      "name": "速看100",
-      "type": 3,
-      "api": "csp_Appys",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": "https://sk100.tv/api.php/app/"
-    },
+	
 	{
       "key": "AList",
       "name": "AList",
