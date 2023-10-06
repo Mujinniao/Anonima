@@ -68,15 +68,6 @@
       "ext": "https://sk100.tv/api.php/app/"
     },
 	{
-      "key": "陌陌",
-      "name": "陌陌",
-      "type": 3,
-      "api": "csp_Appys",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": "http://guan.yy365.vip/api.php/app/"
-    },
-	{
       "key": "奇奇",
       "name": "奇奇",
       "type": 3,
@@ -91,13 +82,6 @@
 	  "type":3,
 	  "api":"https://hjdhnx.github.io/dr_py/libs/drpy2.min.js",
 	  "ext":"https://hjdhnx.github.io/dr_py/js/蘑菇.js"
-	},
-	   {
-	  "key":"影探",
-	  "name":"影探",
-	  "type":3,
-	  "api":"https://hjdhnx.github.io/dr_py/libs/drpy2.min.js",
-	  "ext":"https://hjdhnx.github.io/dr_py/js/影探[V2].js"
 	},
 	{
       "key": "影視",
@@ -335,7 +319,7 @@
     {
       "name": "3",
       "type": 1,
-      "url": "http://110.42.2.247:880/analysis/json/?uid=2449&my=acfgikquvzFGJRW459&url="
+      "url": "https://api.json.icu/api/?key=4f8fb5042b695d5c515f6343af716af8&url="
     },
     {
       "name": "4",
@@ -345,7 +329,7 @@
     {
       "name": "5",
       "type": 1,
-      "url": "http://xiaoxin.1080p.fun/home/api?type=ys&uid=91198&key=bhntuwyAJLMTUY1478&url="
+      "url": "http://119.91.123.253:1234/Api/cs.php?url="
     },
     {
       "name": "6",
