@@ -1,5 +1,5 @@
 {
-  "spider": "https://ghproxy.net/https://raw.githubusercontent.com/Mujinniao/my/main/box/custom_spider.jar;md5;682dd773cd0fcfb96f03c71f501dda17",
+  "spider": "https://ghproxy.net/https://raw.githubusercontent.com/Mujinniao/my/main/box/custom_spider.jar;md5;cf581203a3723cf5dd69f27436cc4657",
   "lives": [
     {
       "name": "live",
@@ -20,19 +20,30 @@
 	{
 	  "key":"爱看bot",
 	  "name":"爱看bot",
+	  "searchable": 1,
+      "changeable": 1,
 	  "type":3,
 	  "api":"https://hjdhnx.github.io/dr_py/libs/drpy2.min.js",
 	  "ext":"https://hjdhnx.github.io/dr_py/js/爱看机器人.js"
 	},
-    { 
-      "key": "萌蛋蛋",
-      "name": "萌蛋蛋",
-      "type": 3,
-      "api": "csp_Appys",
-      "searchable": 1,
+	{
+	  "key":"emo蓝光",
+	  "name":"emo蓝光",
+	  "searchable": 1,
       "changeable": 1,
-      "ext": "http://app.mengdandan.com/xgapp.php/v1/"
-    },
+	  "type":3,
+	  "api":"https://hjdhnx.github.io/dr_py/libs/drpy2.min.js",
+	  "ext":"https://hjdhnx.github.io/dr_py/js/EMO蓝光[V2].js"
+	},
+	{
+	  "key":"影探",
+	  "name":"影探",
+	  "searchable": 1,
+      "changeable": 1,
+	  "type":3,
+	  "api":"https://hjdhnx.github.io/dr_py/libs/drpy2.min.js",
+	  "ext":"https://hjdhnx.github.io/dr_py/js/影探[V2].js"
+	},
 	{
       "key": "爱迪",
       "name": "爱迪",
@@ -69,13 +80,6 @@
       "changeable": 1,
       "ext": "https://ttsp.live/api.php/app/"
     },
-	{
-	  "key":"蘑菇",
-	  "name":"蘑菇",
-	  "type":3,
-	  "api":"https://hjdhnx.github.io/dr_py/libs/drpy2.min.js",
-	  "ext":"https://hjdhnx.github.io/dr_py/js/蘑菇.js"
-	},
 	{
       "key": "影視",
       "name": "影視",
@@ -122,14 +126,6 @@
 	  "type":3,
       "api":"csp_Panghu",
       "searchable": 1,
-      "changeable": 1
-	},
-	{
-	  "key":"达达龟",
-	  "name":"达达龟",
-	  "type":3,
-	  "api":"csp_Dadag",
-	  "searchable": 1,
       "changeable": 1
 	},
 	{
@@ -188,6 +184,22 @@
 	  "searchable": 1,
       "changeable": 1
 	},
+    {
+      "key": "巴士",
+      "name": "巴士",
+      "type": 3,
+      "api": "csp_Dm84",
+      "searchable": 1,
+      "changeable": 1
+    },
+	{
+	  "key":"达达龟",
+	  "name":"达达龟",
+	  "type":3,
+	  "api":"csp_Dadag",
+	  "searchable": 1,
+      "changeable": 1
+	},
 	/*
     {
       "key": "暴風",
@@ -205,17 +217,8 @@
       "searchable": 1,
       "changeable": 1
     },
-	*/
-    {
-      "key": "巴士",
-      "name": "巴士",
-      "type": 3,
-      "api": "csp_Dm84",
-      "searchable": 1,
-      "changeable": 1
-    },
 	{
-	  "key":"Freeok",
+	  "key":"Freeok搜索验证",
 	  "name":"Freeok",
 	  "type":3,
 	  "api":"csp_Freeok",
@@ -223,13 +226,14 @@
       "changeable": 1
 	},
 	{
-	  "key":"追剧兔",
+	  "key":"追剧兔搜索验证",
 	  "name":"追剧兔",
 	  "type":3,
 	  "api":"csp_Zhjut",
 	  "searchable": 1,
       "changeable": 1
 	},
+	*/
 	{
       "key": "AList",
       "name": "AList",
@@ -489,15 +493,27 @@
     }
   ],
    "rules": [
-    {
+     {
       "name": "海外看",
       "hosts": [
         "haiwaikan"
       ],
       "regex": [
-        "8.1748",
         "10.0099",
-        "10.3333"
+        "10.3333",
+        "16.0599",
+        "8.1748",
+        "10.85"
+      ]
+    },
+    {
+      "name": "索尼",
+      "hosts": [
+        "suonizy"
+      ],
+      "regex": [
+        "15.1666",
+        "15.2666"
       ]
     },
     {
@@ -526,8 +542,7 @@
         "v.cdnlz"
       ],
       "regex": [
-        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-        "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
+        "18.5333"
       ]
     },
     {
@@ -537,8 +552,7 @@
         "hd.ffzy"
       ],
       "regex": [
-        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-        "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
+        "25.0666"
       ]
     },
     {
@@ -559,7 +573,7 @@
         "is_play_url="
       ]
     },
-	{
+    {
       "name": "農民嗅探",
       "hosts": [
         "toutiaovod.com"
