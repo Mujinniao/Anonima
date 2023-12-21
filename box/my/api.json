@@ -1,5 +1,5 @@
 {
-  "spider": "https://ghproxy.net/https://raw.githubusercontent.com/Mujinniao/my/main/box/custom_spider.jar;md5;cf581203a3723cf5dd69f27436cc4657",
+  "spider": "https://ghproxy.net/https://raw.githubusercontent.com/Mujinniao/my/main/box/custom_spider.jar;md5;697ad2e1355d282d149ed06542740d17",
   "lives": [
     {
       "name": "live",
@@ -81,10 +81,10 @@
       "ext": "https://ttsp.live/api.php/app/"
     },
 	{
-      "key": "影視",
-      "name": "影視",
+      "key": "996影院",
+      "name": "996影院",
       "type": 3,
-      "api": "csp_YingShi",
+      "api": "csp_Cs1369",
       "searchable": 1,
       "changeable": 1
     },
@@ -582,5 +582,8 @@
         "video/tos/cn"
       ]
     }
+  ],
+  "ads": [
+    "mozai.4gtv.tv"
   ]
 }
