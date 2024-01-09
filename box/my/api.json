@@ -1,5 +1,5 @@
 {
-  "spider": "https://ghproxy.net/https://raw.githubusercontent.com/Mujinniao/my/main/box/custom_spider.jar;md5;697ad2e1355d282d149ed06542740d17",
+  "spider": "https://ghproxy.net/https://raw.githubusercontent.com/Mujinniao/my/main/box/custom_spider.jar;md5;6b56fbdf88fc47fa8d7c87c8bfd7ff49",
   "lives": [
     {
       "name": "live",
@@ -27,33 +27,6 @@
 	  "ext":"https://hjdhnx.github.io/dr_py/js/爱看机器人.js"
 	},
 	{
-	  "key":"emo蓝光",
-	  "name":"emo蓝光",
-	  "searchable": 1,
-      "changeable": 1,
-	  "type":3,
-	  "api":"https://hjdhnx.github.io/dr_py/libs/drpy2.min.js",
-	  "ext":"https://hjdhnx.github.io/dr_py/js/EMO蓝光[V2].js"
-	},
-	{
-	  "key":"影探",
-	  "name":"影探",
-	  "searchable": 1,
-      "changeable": 1,
-	  "type":3,
-	  "api":"https://hjdhnx.github.io/dr_py/libs/drpy2.min.js",
-	  "ext":"https://hjdhnx.github.io/dr_py/js/影探[V2].js"
-	},
-	{
-      "key": "爱迪",
-      "name": "爱迪",
-      "type": 3,
-      "api": "csp_Appys",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": "https://aidiapp.xyz/xgapp.php/v2/"
-    },
-	{
       "key": "996w",
       "name": "996w",
       "type": 3,
@@ -72,15 +45,6 @@
       "ext": "https://sk100.tv/api.php/app/"
     },
 	{
-      "key": "奇奇",
-      "name": "奇奇",
-      "type": 3,
-      "api": "csp_Appys",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": "https://ttsp.live/api.php/app/"
-    },
-	{
       "key": "996影院",
       "name": "996影院",
       "type": 3,
@@ -96,22 +60,6 @@
 	  "searchable": 1,
       "changeable": 1
 	},
-	{
-	  "key":"影渣渣",
-	  "name":"影渣渣",
-	  "type":3,
-	  "api":"csp_Yingzz",
-	  "searchable": 1,
-      "changeable": 1
-	},
-	{
-      "key": "瑞星",
-      "name": "瑞星",
-      "type": 3,
-      "api": "csp_ruixing",
-      "searchable": 1,
-      "changeable": 1
-    },
 	{
       "key": "两个BT",
       "name": "两个BT",
@@ -137,14 +85,6 @@
       "changeable": 1
 	},
 	{
-	  "key":"l0l",
-	  "name":"l0l",
-	  "type":3,
-	  "api":"csp_L0l",
-	  "searchable": 1,
-      "changeable": 1
-	},
-	{
 	  "key":"免费看",
 	  "name":"免费看",
 	  "type":3,
@@ -157,14 +97,6 @@
 	  "name":"奈落",
 	  "type":3,
 	  "api":"csp_Nailu",
-	  "searchable": 1,
-      "changeable": 1
-	},
-	{
-	  "key":"农民",
-	  "name":"农民",
-	  "type":3,
-	  "api":"csp_Nongm",
 	  "searchable": 1,
       "changeable": 1
 	},
@@ -200,6 +132,38 @@
 	  "searchable": 1,
       "changeable": 1
 	},
+	{
+	  "key":"农民",
+	  "name":"农民",
+	  "type":3,
+	  "api":"csp_Nongm",
+	  "searchable": 1,
+      "changeable": 1
+	}, 
+	{
+	  "key":"三五",
+	  "name":"三五",
+	  "type":3,
+	  "api":"csp_SanWu",
+	  "searchable": 1,
+      "changeable": 1
+	}, 
+	{
+	  "key":"疯狗",
+	  "name":"疯狗",
+	  "type":3,
+	  "api":"csp_FengGo",
+	  "searchable": 1,
+      "changeable": 1
+	}, 
+	{
+	  "key":"毛驴",
+	  "name":"毛驴",
+	  "type":3,
+	  "api":"csp_MaoLv",
+	  "searchable": 1,
+      "changeable": 1
+	}, 
 	/*
     {
       "key": "暴風",
@@ -230,6 +194,30 @@
 	  "name":"追剧兔",
 	  "type":3,
 	  "api":"csp_Zhjut",
+	  "searchable": 1,
+      "changeable": 1
+	},
+	{
+      "key": "瑞星",
+      "name": "瑞星",
+      "type": 3,
+      "api": "csp_ruixing",
+      "searchable": 1,
+      "changeable": 1
+    },
+	{
+	  "key":"l0l",
+	  "name":"l0l",
+	  "type":3,
+	  "api":"csp_L0l",
+	  "searchable": 1,
+      "changeable": 1
+	},
+	{
+	  "key":"影渣渣",搜索验证
+	  "name":"影渣渣",
+	  "type":3,
+	  "api":"csp_Yingzz",
 	  "searchable": 1,
       "changeable": 1
 	},
@@ -268,8 +256,7 @@
       "searchable": 1,
       "changeable": 0
     }
-  ],
-       "parses": [
+  ],  
     {
       "name": "聚合1",
       "type": 3,
@@ -584,6 +571,6 @@
     }
   ],
   "ads": [
-    "mozai.4gtv.tv"
+    "static-mozai.4gtv.tv"
   ]
 }
