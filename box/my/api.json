@@ -27,24 +27,6 @@
 	  "ext":"https://hjdhnx.github.io/dr_py/js/爱看机器人.js"
 	},
 	{
-      "key": "996w",
-      "name": "996w",
-      "type": 3,
-      "api": "csp_Appys",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": "https://w.996w.top/api.php/app/"
-    },
-	{
-      "key": "速看100",
-      "name": "速看100",
-      "type": 3,
-      "api": "csp_Appys",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": "https://sk100.tv/api.php/app/"
-    },
-	{
       "key": "996影院",
       "name": "996影院",
       "type": 3,
