@@ -98,16 +98,6 @@
       "searchable": 1,
       "changeable": 1
     },
-    /*
-    {
-      "key": "卧龙",  广
-      "name": "卧龙",
-      "type": 1,
-      "api": "https://collect.wolongzyw.com/api.php/provide/vod",
-      "searchable": 1,
-      "changeable": 1
-    },
-    */
     {
       "key": "红牛",
       "name": "红牛",
