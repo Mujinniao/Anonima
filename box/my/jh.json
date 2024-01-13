@@ -17,54 +17,6 @@
      "api":"https://hjdhnx.github.io/dr_py/libs/drpy2.min.js",
      "ext":"https://hjdhnx.github.io/dr_py/js/drpy.js"
     },
-    {
-      "key": "乐视",
-      "name": "乐视",
-      "type": 1,
-      "api": "https://leshizyapi.com/api.php/provide/vod",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "四九",
-      "name": "四九",
-      "type": 1,
-      "api": "https://49zyw.com/api.php/provide/vod",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "量子",
-      "name": "量子",
-      "type": 1,
-      "api": "http://cj.lziapi.com/api.php/provide/vod",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "快云",
-      "name": "快云",
-      "type": 1,
-      "api": "https://www.kuaiyunzy.com/api.php/provide/vod",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "爱坤",
-      "name": "爱坤",
-      "type": 1,
-      "api": "https://ikunzyapi.com/api.php/provide/vod",
-      "searchable": 1,
-      "changeable": 1
-    },
-	  {
-      "key": "996影院",
-      "name": "996影院",
-      "type": 3,
-      "api": "csp_Cs1369",
-      "searchable": 1,
-      "changeable": 1
-    },
 	{
 	  "key":"网飞",
 	  "name":"网飞",
@@ -145,14 +97,6 @@
 	  "searchable": 1,
       "changeable": 1
 	},
-	{
-	  "key":"农民",
-	  "name":"农民",
-	  "type":3,
-	  "api":"csp_Nongm",
-	  "searchable": 1,
-      "changeable": 1
-	}, 
 	{
 	  "key":"三五",
 	  "name":"三五",
