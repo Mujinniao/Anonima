@@ -1,5 +1,5 @@
 {
-	"spider": "https://ghproxy.net/https://raw.githubusercontent.com/Mujinniao/Anonima/main/box/custom_spider.jar;md5;1e4ec45c27f6912854af1981108924de",
+	"spider": "https://ghproxy.net/https://raw.githubusercontent.com/Mujinniao/Anonima/main/box/custom_spider.jar;md5;79894876632ef27d25251027cfcc038f",
 	"lives": [
 		{
 			"name": "live",
@@ -54,14 +54,6 @@
 			"name": "爱坤",
 			"type": 1,
 			"api": "https://ikunzyapi.com/api.php/provide/vod",
-			"searchable": 1,
-			"changeable": 1
-		},
-		{
-			"key": "996影院",
-			"name": "996影院",
-			"type": 3,
-			"api": "csp_Cs1369",
 			"searchable": 1,
 			"changeable": 1
 		},
