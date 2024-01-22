@@ -1,0 +1,349 @@
+{
+	"spider": "https://ghproxy.net/https://raw.githubusercontent.com/Mujinniao/my/main/box/custom_spider.jar;md5;3364d225c70b74f506fd1ce72ca6a9d4",
+	"lives": [
+		{
+			"name": "live",
+			"type": 0,
+			"url": "./live.txt",
+			"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+			"logo": "https://epg.112114.xyz/logo/{name}.png"
+		}
+	],
+	"sites": [
+		{
+			"key": "豆瓣",
+			"name": "豆瓣",
+			"type": 3,
+			"api": "https://hjdhnx.github.io/dr_py/libs/drpy2.min.js",
+			"ext": "https://hjdhnx.github.io/dr_py/js/drpy.js"
+		},
+		{
+			"key": "乐视",
+			"name": "乐视",
+			"type": 1,
+			"api": "https://leshizyapi.com/api.php/provide/vod",
+			"searchable": 1,
+			"changeable": 1
+		},
+		{
+			"key": "四九",
+			"name": "四九",
+			"type": 1,
+			"api": "https://49zyw.com/api.php/provide/vod",
+			"searchable": 1,
+			"changeable": 1
+		},
+		{
+			"key": "量子",
+			"name": "量子",
+			"type": 1,
+			"api": "http://cj.lziapi.com/api.php/provide/vod",
+			"searchable": 1,
+			"changeable": 1
+		},
+		{
+			"key": "快云",
+			"name": "快云",
+			"type": 1,
+			"api": "https://www.kuaiyunzy.com/api.php/provide/vod",
+			"searchable": 1,
+			"changeable": 1
+		},
+		{
+			"key": "爱坤",
+			"name": "爱坤",
+			"type": 1,
+			"api": "https://ikunzyapi.com/api.php/provide/vod",
+			"searchable": 1,
+			"changeable": 1
+		},
+		{
+			"key": "996影院",
+			"name": "996影院",
+			"type": 3,
+			"api": "csp_Cs1369",
+			"searchable": 1,
+			"changeable": 1
+		},
+		{
+			"key": "996",
+			"name": "996",
+			"type": 3,
+			"api": "csp_Jiujl",
+			"searchable": 1,
+			"changeable": 1
+		},
+		{
+			"key": "农民",
+			"name": "农民",
+			"type": 3,
+			"api": "csp_Nongm",
+			"searchable": 1,
+			"changeable": 1
+		},
+		{
+			"key": "两个BT",
+			"name": "两个BT",
+			"type": 3,
+			"api": "csp_Btt",
+			"searchable": 1,
+			"changeable": 1
+		},
+		{
+			"key": "panghu",
+			"name": "panghu",
+			"type": 3,
+			"api": "csp_Panghu",
+			"searchable": 1,
+			"changeable": 1
+		},
+		{
+			"key": "干饭",
+			"name": "干饭",
+			"type": 3,
+			"api": "csp_Ganfa",
+			"searchable": 1,
+			"changeable": 1
+		},
+		{
+			"key": "免费看",
+			"name": "免费看",
+			"type": 3,
+			"api": "csp_Mianfk",
+			"searchable": 1,
+			"changeable": 1
+		},
+		{
+			"key": "奈落",
+			"name": "奈落",
+			"type": 3,
+			"api": "csp_Nailu",
+			"searchable": 1,
+			"changeable": 1
+		},
+		{
+			"key": "巴士",
+			"name": "巴士",
+			"type": 3,
+			"api": "csp_Dm84",
+			"searchable": 1,
+			"changeable": 1
+		},
+		{
+			"key": "达达龟",
+			"name": "达达龟",
+			"type": 3,
+			"api": "csp_Dadag",
+			"searchable": 1,
+			"changeable": 1
+		},
+		{
+			"key": "疯狗",
+			"name": "疯狗",
+			"type": 3,
+			"api": "csp_FengGo",
+			"searchable": 1,
+			"changeable": 1
+		},
+		{
+			"key": "毛驴",
+			"name": "毛驴",
+			"type": 3,
+			"api": "csp_MaoLv",
+			"searchable": 1,
+			"changeable": 1
+		},
+		{
+			"key": "AList",
+			"name": "AList",
+			"type": 3,
+			"api": "csp_AList",
+			"searchable": 1,
+			"changeable": 0,
+			"ext": "./alist.json"
+		},
+		{
+			"key": "本地",
+			"name": "本地",
+			"type": 3,
+			"api": "csp_Local",
+			"searchable": 0,
+			"changeable": 0
+		},
+		{
+			"key": "WebDAV",
+			"name": "WebDAV",
+			"type": 3,
+			"api": "csp_WebDAV",
+			"searchable": 1,
+			"changeable": 0,
+			"ext": "./webdav.json"
+		},
+		{
+			"key": "push_agent",
+			"name": "推送",
+			"type": 3,
+			"api": "csp_Push",
+			"searchable": 1,
+			"changeable": 0
+		}
+	],
+	"doh": [
+		{
+			"name": "Google",
+			"url": "https://dns.google/dns-query",
+			"ips": [
+				"8.8.4.4",
+				"8.8.8.8"
+			]
+		},
+		{
+			"name": "Cloudflare",
+			"url": "https://cloudflare-dns.com/dns-query",
+			"ips": [
+				"1.1.1.1",
+				"1.0.0.1",
+				"2606:4700:4700::1111",
+				"2606:4700:4700::1001"
+			]
+		},
+		{
+			"name": "AdGuard",
+			"url": "https://dns.adguard.com/dns-query",
+			"ips": [
+				"94.140.14.140",
+				"94.140.14.141"
+			]
+		},
+		{
+			"name": "DNSWatch",
+			"url": "https://resolver2.dns.watch/dns-query",
+			"ips": [
+				"84.200.69.80",
+				"84.200.70.40"
+			]
+		},
+		{
+			"name": "Quad9",
+			"url": "https://dns.quad9.net/dns-quer",
+			"ips": [
+				"9.9.9.9",
+				"149.112.112.112"
+			]
+		}
+	],
+	"rules": [
+		{
+			"name": "海外看",
+			"hosts": [
+				"haiwaikan"
+			],
+			"regex": [
+				"10.0099",
+				"10.3333",
+				"16.0599",
+				"8.1748",
+				"10.85"
+			]
+		},
+		{
+			"name": "索尼",
+			"hosts": [
+				"suonizy"
+			],
+			"regex": [
+				"#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:1\\.000000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+				"#EXTINF.*?\\s+.*?p1ayer.*?\\.ts",
+				"#EXTINF.*?\\s+.*?\\/video\\/original.*?\\.ts",
+				"15.1666",
+				"15.2666"
+			]
+		},
+		{
+			"name": "暴風",
+			"hosts": [
+				"bfzy",
+				"bfbfvip"
+			],
+			"regex": [
+				"#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+			]
+		},
+		{
+			"name": "星星",
+			"hosts": [
+				"aws.ulivetv.net"
+			],
+			"regex": [
+				"#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:8,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+			]
+		},
+		{
+			"name": "快看",
+			"hosts": [
+				"kuaikan"
+			],
+			"regex": [
+				"#EXT-X-KEY:METHOD=NONE\\r*\\n*#EXTINF:5,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+				"#EXT-X-KEY:METHOD=NONE\\r*\\n*#EXTINF:2\\.4,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+			]
+		},
+		{
+			"name": "量子",
+			"hosts": [
+				"vip.lz",
+				"hd.lz",
+				"v.cdnlz"
+			],
+			"regex": [
+				"#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6\\.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+				"#EXTINF.*?\\s+.*?1o.*?\\.ts",
+				"18.5333"
+			]
+		},
+		{
+			"name": "非凡",
+			"hosts": [
+				"vip.ffzy",
+				"hd.ffzy"
+			],
+			"regex": [
+				"#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:7\\.400000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+				"#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:5\\.760000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+				"#EXTINF.*?\\s+.*?1170(20|32).*?\\.ts",
+				"#EXTINF.*?\\s+.*?116977.*?\\.ts",
+				"20.52"
+			]
+		},
+		{
+			"name": "火山嗅探",
+			"hosts": [
+				"huoshan.com"
+			],
+			"regex": [
+				"item_id="
+			]
+		},
+		{
+			"name": "抖音嗅探",
+			"hosts": [
+				"douyin.com"
+			],
+			"regex": [
+				"is_play_url="
+			]
+		},
+		{
+			"name": "農民嗅探",
+			"hosts": [
+				"toutiaovod.com"
+			],
+			"regex": [
+				"video/tos/cn"
+			]
+		}
+	],
+	"ads": [
+		"static-mozai.4gtv.tv"
+	]
+}
