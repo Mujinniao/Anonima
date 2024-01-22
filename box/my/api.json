@@ -1,5 +1,5 @@
 {
-	"spider": "https://ghproxy.net/https://raw.githubusercontent.com/Mujinniao/my/main/box/custom_spider.jar;md5;fd27e1014b53105052b4a963cc4f58e3",
+	"spider": "https://ghproxy.net/https://raw.githubusercontent.com/Mujinniao/my/main/box/custom_spider.jar;md5;3364d225c70b74f506fd1ce72ca6a9d4",
 	"lives": [
 		{
 			"name": "live",
@@ -62,6 +62,14 @@
 			"name": "996影院",
 			"type": 3,
 			"api": "csp_Cs1369",
+			"searchable": 1,
+			"changeable": 1
+		},
+		{
+			"key": "996",
+			"name": "996",
+			"type": 3,
+			"api": "csp_Jiujl",
 			"searchable": 1,
 			"changeable": 1
 		},
