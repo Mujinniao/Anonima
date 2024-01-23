@@ -238,6 +238,11 @@
 				"10.85"
 			]
 		},
+  {
+      "name":"乐视",
+      "hosts": ["leshiyuncdn"],
+      "regex": ["15.92"]
+  },
 		{
 			"name": "索尼",
 			"hosts": [
