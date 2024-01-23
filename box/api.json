@@ -2,11 +2,11 @@
 	"spider": "https://ghproxy.net/https://raw.githubusercontent.com/Mujinniao/Anonima/main/box/custom_spider.jar;md5;05ad83296e670505ff7337e6bb970844",
 	"lives": [
 		{
-			"name": "live",
-			"type": 0,
+			"name": "IPTV",
 			"url": "./live.txt",
 			"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-			"logo": "https://epg.112114.xyz/logo/{name}.png"
+			"logo": "https://epg.112114.xyz/logo/{name}.png",
+			"playerType": 2
 		}
 	],
 	"sites": [
@@ -14,8 +14,10 @@
 			"key": "豆瓣",
 			"name": "豆瓣",
 			"type": 3,
-			"api": "https://hjdhnx.github.io/dr_py/libs/drpy2.min.js",
-			"ext": "https://hjdhnx.github.io/dr_py/js/drpy.js"
+			"api": "csp_Douban",
+			"changeable": 1,
+			"searchable": 0,
+			"ext": "https://ghproxy.net/https://raw.githubusercontent.com/Mujinniao/Anonima/main/box/douban.json"
 		},
 		{
 			"key": "乐视",
@@ -146,6 +148,13 @@
 			"changeable": 1
 		},
 		{
+			"key": "商店",
+			"name": "商店",
+			"type": 3,
+			"api": "csp_Market",
+			"ext": "https://ghproxy.net/https://raw.githubusercontent.com/Mujinniao/Anonima/main/box/market.json"
+		},
+		{
 			"key": "AList",
 			"name": "AList",
 			"type": 3,
@@ -226,66 +235,6 @@
 	],
 	"rules": [
 		{
-			"name": "海外看",
-			"hosts": [
-				"haiwaikan"
-			],
-			"regex": [
-				"10.0099",
-				"10.3333",
-				"16.0599",
-				"8.1748",
-				"10.85"
-			]
-		},
-  {
-      "name":"乐视",
-      "hosts": ["leshiyuncdn"],
-      "regex": ["15.92"]
-  },
-		{
-			"name": "索尼",
-			"hosts": [
-				"suonizy"
-			],
-			"regex": [
-				"#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:1\\.000000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-				"#EXTINF.*?\\s+.*?p1ayer.*?\\.ts",
-				"#EXTINF.*?\\s+.*?\\/video\\/original.*?\\.ts",
-				"15.1666",
-				"15.2666"
-			]
-		},
-		{
-			"name": "暴風",
-			"hosts": [
-				"bfzy",
-				"bfbfvip"
-			],
-			"regex": [
-				"#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY"
-			]
-		},
-		{
-			"name": "星星",
-			"hosts": [
-				"aws.ulivetv.net"
-			],
-			"regex": [
-				"#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:8,[\\s\\S]*?#EXT-X-DISCONTINUITY"
-			]
-		},
-		{
-			"name": "快看",
-			"hosts": [
-				"kuaikan"
-			],
-			"regex": [
-				"#EXT-X-KEY:METHOD=NONE\\r*\\n*#EXTINF:5,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-				"#EXT-X-KEY:METHOD=NONE\\r*\\n*#EXTINF:2\\.4,[\\s\\S]*?#EXT-X-DISCONTINUITY"
-			]
-		},
-		{
 			"name": "量子",
 			"hosts": [
 				"vip.lz",
@@ -310,6 +259,70 @@
 				"#EXTINF.*?\\s+.*?1170(20|32).*?\\.ts",
 				"#EXTINF.*?\\s+.*?116977.*?\\.ts",
 				"20.52"
+			]
+		},
+		{
+			"name": "索尼",
+			"hosts": [
+				"suonizy"
+			],
+			"regex": [
+				"#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:1\\.000000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+				"#EXTINF.*?\\s+.*?p1ayer.*?\\.ts",
+				"#EXTINF.*?\\s+.*?\\/video\\/original.*?\\.ts",
+				"15.1666",
+				"15.2666"
+			]
+		},
+		{
+			"name": "暴風",
+			"hosts": [
+				"bfzy",
+				"bfbfvip"
+			],
+			"regex": [
+				"#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+			]
+		},
+		{
+			"name": "乐视",
+			"hosts": [
+				"leshiyuncdn"
+			],
+			"regex": [
+				"15.92"
+			]
+		},
+		{
+			"name": "海外看",
+			"hosts": [
+				"haiwaikan"
+			],
+			"regex": [
+				"10.0099",
+				"10.3333",
+				"16.0599",
+				"8.1748",
+				"10.85"
+			]
+		},
+		{
+			"name": "星星",
+			"hosts": [
+				"aws.ulivetv.net"
+			],
+			"regex": [
+				"#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:8,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+			]
+		},
+		{
+			"name": "快看",
+			"hosts": [
+				"kuaikan"
+			],
+			"regex": [
+				"#EXT-X-KEY:METHOD=NONE\\r*\\n*#EXTINF:5,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+				"#EXT-X-KEY:METHOD=NONE\\r*\\n*#EXTINF:2\\.4,[\\s\\S]*?#EXT-X-DISCONTINUITY"
 			]
 		},
 		{
