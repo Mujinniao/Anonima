@@ -1,5 +1,5 @@
 {
-	"spider": "https://ghproxy.net/https://raw.githubusercontent.com/Mujinniao/Anonima/main/box/custom_spider.jar;md5;05ad83296e670505ff7337e6bb970844",
+	"spider": "https://ghproxy.net/https://raw.githubusercontent.com/Mujinniao/Anonima/main/box/custom_spider.jar;md5;74ea377ce9d493bec30d54924878251e",
 	"lives": [
 		{
 			"name": "IPTV",
@@ -7,6 +7,13 @@
 			"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
 			"logo": "https://epg.112114.xyz/logo/{name}.png",
 			"playerType": 2
+		},
+		{
+			"name": "ijk",
+			"url": "./live2.txt",
+			"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+			"logo": "https://epg.112114.xyz/logo/{name}.png",
+			"playerType": 1
 		}
 	],
 	"sites": [
@@ -291,6 +298,16 @@
 			],
 			"regex": [
 				"15.92"
+			]
+		},
+		{
+			"name": "四九",
+			"hosts": [
+				".49zy"
+			],
+			"regex": [
+				"#EXT-X-KEY:METHOD=NONE\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+				"#EXT-X-KEY:METHOD=NONE\\r*\\n*#EXTINF:4\\.76,[\\s\\S]*?#EXT-X-DISCONTINUITY"
 			]
 		},
 		{
