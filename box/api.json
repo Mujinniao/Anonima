@@ -1,5 +1,5 @@
 {
-	"spider": "https://ghproxy.net/https://raw.githubusercontent.com/Mujinniao/Anonima/main/box/custom_spider.jar;md5;74ea377ce9d493bec30d54924878251e",
+	"spider": "https://ghproxy.net/https://raw.githubusercontent.com/Mujinniao/Anonima/main/box/custom_spider.jar;md5;cbd5301a8c2e2383c01c029dac53e793",
 	"lives": [
 		{
 			"name": "IPTV",
@@ -60,6 +60,14 @@
 			"changeable": 1
 		},
 		{
+			"key": "蚂蚁",
+			"name": "蚂蚁",
+			"type": 3,
+			"api": "csp_Mayi",
+			"searchable": 1,
+			"changeable": 1
+		},
+		{
 			"key": "996",
 			"name": "996",
 			"type": 3,
@@ -80,6 +88,14 @@
 			"name": "两个BT",
 			"type": 3,
 			"api": "csp_Btt",
+			"searchable": 1,
+			"changeable": 1
+		},
+		{
+			"key": "圣城",
+			"name": "圣城",
+			"type": 3,
+			"api": "csp_Shengc",
 			"searchable": 1,
 			"changeable": 1
 		},
