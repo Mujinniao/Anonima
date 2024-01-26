@@ -1,5 +1,5 @@
 {
-	"spider": "https://ghproxy.net/https://raw.githubusercontent.com/Mujinniao/Anonima/main/box/custom_spider.jar;md5;cbd5301a8c2e2383c01c029dac53e793",
+	"spider": "https://ghproxy.net/https://raw.githubusercontent.com/Mujinniao/Anonima/main/box/custom_spider.jar;md5;9110e6a7419c1e133e694714e7f4d58f",
 	"lives": [
 		{
 			"name": "IPTV",
@@ -41,21 +41,14 @@
 			"type": 1,
 			"api": "http://cj.lziapi.com/api.php/provide/vod",
 			"searchable": 1,
-			"changeable": 1
+			"changeable": 1,
+			"timeout": 20
 		},
 		{
 			"key": "快云",
 			"name": "快云",
 			"type": 1,
 			"api": "https://www.kuaiyunzy.com/api.php/provide/vod",
-			"searchable": 1,
-			"changeable": 1
-		},
-		{
-			"key": "爱坤",
-			"name": "爱坤",
-			"type": 1,
-			"api": "https://ikunzyapi.com/api.php/provide/vod",
 			"searchable": 1,
 			"changeable": 1
 		},
@@ -73,7 +66,8 @@
 			"type": 3,
 			"api": "csp_Jiujl",
 			"searchable": 1,
-			"changeable": 1
+			"changeable": 1,
+			"timeout": 20
 		},
 		{
 			"key": "农民",
@@ -89,7 +83,8 @@
 			"type": 3,
 			"api": "csp_Btt",
 			"searchable": 1,
-			"changeable": 1
+			"changeable": 1,
+			"timeout": 20
 		},
 		{
 			"key": "圣城",
@@ -258,8 +253,7 @@
 				"v.cdnlz"
 			],
 			"regex": [
-				"#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6\\.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-				"#EXTINF.*?\\s+.*?1o.*?\\.ts",
+				"19.52",
 				"18.5333"
 			]
 		},
@@ -270,10 +264,8 @@
 				"hd.ffzy"
 			],
 			"regex": [
-				"#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:7\\.400000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-				"#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:5\\.760000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-				"#EXTINF.*?\\s+.*?1170(20|32).*?\\.ts",
-				"#EXTINF.*?\\s+.*?116977.*?\\.ts",
+				"25.0666",
+				"25.08",
 				"20.52"
 			]
 		},
@@ -283,9 +275,6 @@
 				"suonizy"
 			],
 			"regex": [
-				"#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:1\\.000000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-				"#EXTINF.*?\\s+.*?p1ayer.*?\\.ts",
-				"#EXTINF.*?\\s+.*?\\/video\\/original.*?\\.ts",
 				"15.1666",
 				"15.2666"
 			]
