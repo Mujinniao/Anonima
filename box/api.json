@@ -1,5 +1,5 @@
 {
-	"spider": "https://ghproxy.net/https://raw.githubusercontent.com/Mujinniao/Anonima/main/box/custom_spider.jar;md5;1b5ad0556d51a7a2a43af5a098120919",
+	"spider": "https://ghproxy.net/https://raw.githubusercontent.com/Mujinniao/Anonima/main/box/custom_spider.jar;md5;b68bbe9bf072a4e3382ff7f2623b3152",
 	"lives": [
 		{
 			"name": "IPTV",
@@ -55,7 +55,7 @@
 			"key": "则奇",
 			"name": "则奇",
 			"type": 1,
-			"api": "https://aoi.zeqaht.com/api.php/provide/vod",
+			"api": "https://api.zeqaht.com/api.php/provide/vod",
 			"searchable": 1,
 			"changeable": 1
 		},
