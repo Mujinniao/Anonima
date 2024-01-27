@@ -1,12 +1,11 @@
 {
-	"spider": "https://ghproxy.net/https://raw.githubusercontent.com/Mujinniao/Anonima/main/box/custom_spider.jar;md5;9110e6a7419c1e133e694714e7f4d58f",
+	"spider": "https://ghproxy.net/https://raw.githubusercontent.com/Mujinniao/Anonima/main/box/custom_spider.jar;md5;1b5ad0556d51a7a2a43af5a098120919",
 	"lives": [
 		{
 			"name": "IPTV",
 			"url": "./live.txt",
 			"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-			"logo": "https://live.fanmingming.com/tv/{name}.png",
-			"playerType": 2
+			"logo": "https://live.fanmingming.com/tv/{name}.png"
 		}
 	],
 	"sites": [
@@ -49,6 +48,14 @@
 			"name": "快云",
 			"type": 1,
 			"api": "https://www.kuaiyunzy.com/api.php/provide/vod",
+			"searchable": 1,
+			"changeable": 1
+		},
+		{
+			"key": "则奇",
+			"name": "则奇",
+			"type": 1,
+			"api": "https://aoi.zeqaht.com/api.php/provide/vod",
 			"searchable": 1,
 			"changeable": 1
 		},
@@ -286,7 +293,10 @@
 				"bfbfvip"
 			],
 			"regex": [
-				"#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+				"19.52",
+				"42.2",
+				"35.6",
+				"27.44"
 			]
 		},
 		{
