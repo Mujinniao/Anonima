@@ -1,11 +1,12 @@
 {
-	"spider": "https://ghproxy.net/https://raw.githubusercontent.com/Mujinniao/Anonima/main/box/custom_spider.jar;md5;b68bbe9bf072a4e3382ff7f2623b3152",
+	"spider": "https://ghproxy.net/https://raw.githubusercontent.com/Mujinniao/Anonima/main/box/custom_spider.jar;md5;f661221ad2c28210ced9f4694d144f37",
 	"lives": [
 		{
 			"name": "IPTV",
 			"url": "./live.txt",
 			"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-			"logo": "https://live.fanmingming.com/tv/{name}.png"
+			"logo": "https://live.fanmingming.com/tv/{name}.png",
+			"playerType": 2
 		}
 	],
 	"sites": [
@@ -52,10 +53,10 @@
 			"changeable": 1
 		},
 		{
-			"key": "则奇",
-			"name": "则奇",
+			"key": "熊掌",
+			"name": "熊掌",
 			"type": 1,
-			"api": "https://api.zeqaht.com/api.php/provide/vod",
+			"api": "https://xzcjz.com/api.php/provide/vod",
 			"searchable": 1,
 			"changeable": 1
 		},
@@ -150,10 +151,10 @@
 			"changeable": 1
 		},
 		{
-			"key": "疯狗",
-			"name": "疯狗",
+			"key": "网飞",
+			"name": "网飞",
 			"type": 3,
-			"api": "csp_FengGo",
+			"api": "csp_Wangfei",
 			"searchable": 1,
 			"changeable": 1
 		},
@@ -329,15 +330,6 @@
 				"16.0599",
 				"8.1748",
 				"10.85"
-			]
-		},
-		{
-			"name": "星星",
-			"hosts": [
-				"aws.ulivetv.net"
-			],
-			"regex": [
-				"#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:8,[\\s\\S]*?#EXT-X-DISCONTINUITY"
 			]
 		},
 		{
