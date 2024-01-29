@@ -1,5 +1,5 @@
 {
-	"spider": "https://ghproxy.net/https://raw.githubusercontent.com/Mujinniao/Anonima/main/box/custom_spider.jar;md5;f661221ad2c28210ced9f4694d144f37",
+	"spider": "https://ghproxy.net/https://raw.githubusercontent.com/Mujinniao/Anonima/main/box/custom_spider.jar;md5;17c1e122b11b4a78cf01f2ea98d9cb84",
 	"lives": [
 		{
 			"name": "IPTV",
@@ -55,8 +55,8 @@
 		{
 			"key": "熊掌",
 			"name": "熊掌",
-			"type": 1,
-			"api": "https://xzcjz.com/api.php/provide/vod",
+			"type": 3,
+			"api": "csp_Xiongz",
 			"searchable": 1,
 			"changeable": 1
 		},
