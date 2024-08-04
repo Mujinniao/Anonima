@@ -4,7 +4,6 @@
 
 CCTV1,http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00000311/index.m3u8
 CCTV1,http://192.168.1.1:8888/udp/239.253.7.43:53043
-CETV1,http://192.168.1.1:8888/udp/239.253.7.75:15076
 CCTV1,http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00000001/index.m3u8
 
 CCTV2,http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00000317/index.m3u8
@@ -73,7 +72,7 @@ CCTV15,http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////
 CCTV17,http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00000303/index.m3u8
 CCTV17,http://192.168.1.1:8888/udp/239.253.7.50:52237
 
-CCTV4K[3840x2160],http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00000382/index.m3u8
+CCTV4K,http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00000382/index.m3u8
 
 CGTN,http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00000352/index.m3u8
 CGTN,http://192.168.1.1:8888/udp/239.253.7.143:51015
@@ -90,6 +89,7 @@ CGTN阿语,http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com
 CGTN俄语,http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00000357/index.m3u8
 
 CETV1,http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00000076/index.m3u8
+CETV1,http://192.168.1.1:8888/udp/239.253.7.75:15076
 
 CETV2,http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00000077/index.m3u8
 
