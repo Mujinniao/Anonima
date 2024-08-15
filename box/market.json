@@ -1,6 +1,6 @@
 [
   {
-    "name": "推薦",
+    "name": "推荐",
     "list": [
       {
         "url": "",
@@ -9,46 +9,46 @@
     ]
   },
   {
-    "name": "正式版",
+    "name": "fm",
     "list": [
       {
-        "name": "電視-py-v7a",
-        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/release/leanback-python-armeabi_v7a.apk",
+        "name": "电视-py-v7a",
+        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/dev/leanback-python-armeabi_v7a.apk",
         "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
         "version": "v7a"
       },
       {
-        "name": "手機-py-v7a",
-        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/release/mobile-python-armeabi_v7a.apk",
+        "name": "手机-py-v7a",
+        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/dev/mobile-python-armeabi_v7a.apk",
         "icon": "https://i.imgs.ovh/2023/10/17/r8lVK.png",
         "version": "v7a"
       },
       {
-        "name": "手機-py-v8a",
-        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/release/mobile-python-arm64_v8a.apk",
+        "name": "手机-py-v8a",
+        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/dev/mobile-python-arm64_v8a.apk",
         "icon": "https://i.imgs.ovh/2023/10/17/r8lVK.png",
         "version": "v8a"
       }
     ]
   },
   {
-    "name": "內測版",
+    "name": "ok",
     "list": [
       {
-        "name": "電視-py-v7a",
-        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/dev/leanback-python-armeabi_v7a.apk",
+        "name": "电视-py-v7a",
+        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/FongMi/Release/main/apk/dev/leanback-python-armeabi_v7a.apk",
         "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
         "version": "v7a"
       },
       {
-        "name": "手機-py-v7a",
-        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/dev/mobile-python-armeabi_v7a.apk",
+        "name": "手机-py-v7a",
+        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/FongMi/Release/main/apk/dev/mobile-python-armeabi_v7a.apk",
         "icon": "https://i.imgs.ovh/2023/10/17/r8lVK.png",
         "version": "v7a"
       },
       {
-        "name": "手機-py-v8a",
-        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/dev/mobile-python-arm64_v8a.apk",
+        "name": "手机-py-v8a",
+        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/FongMi/Release/main/apk/dev/mobile-python-arm64_v8a.apk",
         "icon": "https://i.imgs.ovh/2023/10/17/r8lVK.png",
         "version": "v8a"
       }
