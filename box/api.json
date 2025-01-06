@@ -362,7 +362,7 @@
 			]
 		},
 		{
-			"name": "胖虎嗅探"
+			"name": "胖虎嗅探",
 			"host": "panghuys.com",
 			"rule": [
 				"?url="
