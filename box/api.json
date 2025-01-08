@@ -1,5 +1,5 @@
 {
-	"spider": "https://ghproxy.net/https://raw.githubusercontent.com/Mujinniao/Anonima/refs/heads/main/box/custom_spider.jar;md5;83e449cd045ec658ea08f8226c3eb7cc",
+	"spider": "https://ghproxy.net/https://raw.githubusercontent.com/Mujinniao/Anonima/refs/heads/main/box/custom_spider.jar;md5;969ca46c8a03477120e147a7d19ad825",
 	"lives": [
 		{
 			"name": "IPTV",
@@ -130,14 +130,6 @@
 			"changeable": 1
 		},
 		{
-			"key": "旺旺",
-			"name": "旺旺",
-			"type": 3,
-			"api": "csp_Wangw",
-			"searchable": 1,
-			"changeable": 1
-		},
-		{
 			"key": "看片",
 			"name": "看片",
 			"type": 3,
@@ -145,14 +137,6 @@
 			"searchable": 1,
 			"changeable": 1,
 			"timeout": 20
-		},
-		{
-			"key": "胖虎",
-			"name": "胖虎",
-			"type": 3,
-			"api": "csp_Panghu",
-			"searchable": 1,
-			"changeable": 1
 		},
 		{
 			"key": "网飞",
@@ -167,14 +151,6 @@
 			"name": "圣城",
 			"type": 3,
 			"api": "csp_Shengc",
-			"searchable": 1,
-			"changeable": 1
-		},
-		{
-			"key": "十品",
-			"name": "十品",
-			"type": 3,
-			"api": "csp_Ship",
 			"searchable": 1,
 			"changeable": 1
 		},
@@ -293,6 +269,14 @@
 			"name": "异界",
 			"type": 3,
 			"api": "csp_Ysj",
+			"searchable": 1,
+			"changeable": 1
+		},
+		{
+			"key": "胖虎",
+			"name": "胖虎",
+			"type": 3,
+			"api": "csp_Panghu",
 			"searchable": 1,
 			"changeable": 1
 		},
