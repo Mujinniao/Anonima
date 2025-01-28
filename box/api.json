@@ -3,7 +3,7 @@
 	"lives": [
 		{
 			"name": "IPTV",
-			"url": "https://ghproxy.net/https://raw.githubusercontent.com/Mujinniao/Anonima/refs/heads/main/box/iptv.txt",
+			"url": "file://box/iptv.txt",
 			"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
 			"logo": "https://live.fanmingming.com/tv/{name}.png"
 		}
