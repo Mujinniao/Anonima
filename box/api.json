@@ -5,7 +5,7 @@
 			"name": "IPTV",
 			"url": "file://box/iptv.txt",
 			"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-			"logo": "https://live.fanmingming.com/tv/{name}.png"
+			"logo": "https://live.fanmingming.cn/tv/{name}.png"
 		}
 	],
 	"sites": [
