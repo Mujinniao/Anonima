@@ -1,11 +1,11 @@
 {
-	"spider": "https://ghproxy.net/https://raw.githubusercontent.com/Mujinniao/Anonima/refs/heads/main/box/custom_spider.jar;md5;b59422738b01ac9aa328c0f70ea6702b",
+	"spider": "https://ghproxy.net/https://raw.githubusercontent.com/Mujinniao/Anonima/refs/heads/main/box/custom_spider.jar;md5;e8eb637be2f5ba9e25fb19ea76d1cfad",
 	"lives": [
 		{
 			"name": "IPTV",
 			"url": "file://box/iptv.txt",
 			"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-			"logo": "file://box/logo/{name}.png"
+			"logo": "http://127.0.0.1/file/box/logo/{name}.png"
 		}
 	],
 	"sites": [
@@ -170,6 +170,7 @@
 			"searchable": 1,
 			"changeable": 1
 		},
+		/*
 		{
 			"key": "爱看",
 			"name": "爱看",
@@ -178,6 +179,7 @@
 			"searchable": 1,
 			"changeable": 1
 		},
+		*/
 		{
 			"key": "狐狸",
 			"name": "狐狸",
