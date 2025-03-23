@@ -1,5 +1,5 @@
 {
-	"spider": "https://ghproxy.net/https://raw.githubusercontent.com/Mujinniao/Anonima/refs/heads/main/box/custom_spider.jar;md5;e8eb637be2f5ba9e25fb19ea76d1cfad",
+	"spider": "https://ghproxy.net/https://raw.githubusercontent.com/Mujinniao/Anonima/refs/heads/main/box/custom_spider.jar;md5;d0979d6839c55a927d4110d80671fd51",
 	"lives": [
 		{
 			"name": "IPTV",
@@ -92,10 +92,10 @@
 			]
 		},
 		{
-			"key": "一八",
-			"name": "一八",
+			"key": "优质",
+			"name": "优质",
 			"type": 1,
-			"api": "https://api.1080zyku.com/inc/apijson.php",
+			"api": "https://api.yzzy-api.com/inc/api_mac10.php",
 			"searchable": 1,
 			"changeable": 1,
 			"categories": [
@@ -118,6 +118,52 @@
 			"name": "暴风",
 			"type": 1,
 			"api": "https://bfzyapi.com/api.php/provide/vod/",
+			"searchable": 1,
+			"changeable": 1
+		},
+		{
+			"key": "奇异",
+			"name": "奇异",
+			"type": 1,
+			"api": "https://iqiyizyapi.com/api.php/provide/vod/",
+			"searchable": 1,
+			"changeable": 1,
+			"categories": [
+				"国产剧",
+				"韩国剧",
+				"欧美剧",
+				"日本剧",
+				"海外剧",
+				"泰国剧",
+				"国产动漫",
+				"日韩动漫",
+				"动作片",
+				"喜剧片",
+				"科幻片",
+				"短剧"
+			]
+		},
+		{
+			"key": "魔抓",
+			"name": "魔抓",
+			"type": 1,
+			"api": "https://mozhuazy.com/api.php/provide/vod/",
+			"searchable": 1,
+			"changeable": 1
+		},
+		{
+			"key": "如意",
+			"name": "如意",
+			"type": 1,
+			"api": "https://cj.rycjapi.com/api.php/provide/vod/",
+			"searchable": 1,
+			"changeable": 1
+		},
+		{
+			"key": "小熊",
+			"name": "小熊",
+			"type": 1,
+			"api": "http://47.94.99.16:3074/api.php/provide/vod/",
 			"searchable": 1,
 			"changeable": 1
 		},
@@ -147,14 +193,6 @@
 			"changeable": 1
 		},
 		{
-			"key": "圣城",
-			"name": "圣城",
-			"type": 3,
-			"api": "csp_Shengc",
-			"searchable": 1,
-			"changeable": 1
-		},
-		{
 			"key": "平台",
 			"name": "平台",
 			"type": 3,
@@ -170,37 +208,11 @@
 			"searchable": 1,
 			"changeable": 1
 		},
-		/*
-		{
-			"key": "爱看",
-			"name": "爱看",
-			"type": 3,
-			"api": "csp_Ikanbot",
-			"searchable": 1,
-			"changeable": 1
-		},
-		*/
-		{
-			"key": "狐狸",
-			"name": "狐狸",
-			"type": 3,
-			"api": "csp_Huli",
-			"searchable": 1,
-			"changeable": 1
-		},
 		{
 			"key": "巴士",
 			"name": "巴士",
 			"type": 3,
 			"api": "csp_Dm84",
-			"searchable": 1,
-			"changeable": 1
-		},
-		{
-			"key": "樱花",
-			"name": "樱花",
-			"type": 3,
-			"api": "csp_Ying",
 			"searchable": 1,
 			"changeable": 1
 		},
