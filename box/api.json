@@ -1,5 +1,5 @@
 {
-	"spider": "https://ghproxy.net/https://raw.githubusercontent.com/Mujinniao/Anonima/refs/heads/main/box/custom_spider.jar;md5;d0979d6839c55a927d4110d80671fd51",
+	"spider": "https://github.moeyy.xyz/https://raw.githubusercontent.com/Mujinniao/Anonima/refs/heads/main/box/custom_spider.jar;md5;d0979d6839c55a927d4110d80671fd51",
 	"lives": [
 		{
 			"name": "IPTV",
@@ -16,7 +16,7 @@
 			"api": "csp_Douban",
 			"changeable": 1,
 			"searchable": 0,
-			"ext": "https://ghproxy.net/https://raw.githubusercontent.com/Mujinniao/Anonima/refs/heads/main/box/douban.json"
+			"ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/Mujinniao/Anonima/refs/heads/main/box/douban.json"
 		},
 		{
 			"key": "量子",
@@ -230,7 +230,7 @@
 			"type": 3,
 			"api": "csp_Market",
 			"searchable": 0,
-			"ext": "https://ghproxy.net/https://raw.githubusercontent.com/Mujinniao/Anonima/refs/heads/main/box/market.json"
+			"ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/Mujinniao/Anonima/refs/heads/main/box/market.json"
 		},
 		{
 			"key": "本地",
