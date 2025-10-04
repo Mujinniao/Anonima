@@ -205,7 +205,8 @@
 			"type": 3,
 			"api": "csp_Jianpian",
 			"searchable": 1,
-			"changeable": 1
+			"changeable": 1,
+   "ext": "https://ghproxy.net/https://raw.githubusercontent.com/Mujinniao/Anonima/refs/heads/main/box/jianpian.json"
 		},
 		{
 			"key": "在线",
