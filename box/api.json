@@ -3,7 +3,7 @@
 	"lives": [
 		{
 			"name": "IPTV",
-			"url": "file://box/iptv.txt",
+			"url": "http://127.0.0.1:9978/file/box/iptv.txt",
 			"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
 			"logo": "http://127.0.0.1:9978/file/box/logo/{name}.png"
 		}
