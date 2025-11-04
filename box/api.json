@@ -144,10 +144,10 @@
 			]
 		},
 		{
-			"key": "魔抓",
-			"name": "魔抓",
+			"key": "白狐",
+			"name": "白狐",
 			"type": 1,
-			"api": "https://mozhuazy.com/api.php/provide/vod/",
+			"api": "https://baihuzy.com/api.php/provide/vod/",
 			"searchable": 1,
 			"changeable": 1
 		},
@@ -160,10 +160,10 @@
 			"changeable": 1
 		},
 		{
-			"key": "聚星",
-			"name": "聚星",
+			"key": "鸭鸭",
+			"name": "鸭鸭",
 			"type": 1,
-			"api": "http://jxzyw.top/api.php/provide/vod/",
+			"api": "http://cj.yayazy.net/api.php/provide/vod/",
 			"searchable": 1,
 			"changeable": 1
 		},
@@ -176,10 +176,10 @@
 			"changeable": 1
 		},
 		{
-			"key": "天涯",
-			"name": "天涯",
+			"key": "索尼",
+			"name": "索尼",
 			"type": 1,
-			"api": "http://ty.tyyszy5.com/api.php/provide/vod/",
+			"api": "http://souniapi.com/api.php/provide/vod/",
 			"searchable": 1,
 			"changeable": 1
 		},
@@ -206,7 +206,7 @@
 			"api": "csp_Jianpian",
 			"searchable": 1,
 			"changeable": 1,
-   "ext": "https://ghproxy.net/https://raw.githubusercontent.com/Mujinniao/Anonima/refs/heads/main/box/jianpian.json"
+			"ext": "https://ghproxy.net/https://raw.githubusercontent.com/Mujinniao/Anonima/refs/heads/main/box/jianpian.json"
 		},
 		{
 			"key": "在线",
