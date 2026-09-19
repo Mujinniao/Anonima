@@ -1,5 +1,5 @@
 {
-	"spider": "https://ghproxy.net/https://raw.githubusercontent.com/Mujinniao/Anonima/refs/heads/main/box/custom_spider.jar;md5;f30860d10c757225cbca1a9b9873f521",
+	"spider": "https://ghproxy.net/https://raw.githubusercontent.com/Mujinniao/Anonima/refs/heads/main/box/custom_spider.jar;md5;03d07e2052ab89afd74be76ac90d8018",
 	"lives": [
 		{
 			"name": "IPTV",
@@ -144,58 +144,10 @@
 			"changeable": 1
 		},
 		{
-			"key": "极速",
-			"name": "极速",
-			"type": 1,
-			"api": "https://jszyapi.com/api.php/provide/vod/",
-			"searchable": 1,
-			"changeable": 1
-		},
-		{
-			"key": "速播",
-			"name": "速播",
-			"type": 1,
-			"api": "https://subocaiji.com/api.php/provide/vod/",
-			"searchable": 1,
-			"changeable": 1
-		},
-		{
-			"key": "新浪",
-			"name": "新浪",
-			"type": 1,
-			"api": "http://api.xinlangapi.com/xinlangapi.php/provide/vod/",
-			"searchable": 1,
-			"changeable": 1
-		},
-		{
-			"key": "光速",
-			"name": "光速",
-			"type": 1,
-			"api": "https://api.guangsuapi.com/api.php/provide/vod/",
-			"searchable": 1,
-			"changeable": 1
-		},
-		{
-			"key": "闪电",
-			"name": "闪电",
-			"type": 1,
-			"api": "https://sdzyapi.com/api.php/provide/vod/",
-			"searchable": 1,
-			"changeable": 1
-		},
-		{
 			"key": "电天",
 			"name": "电天",
 			"type": 0,
 			"api": "http://caiji.dyttzyapi.com/api.php/provide/vod/at/xml/",
-			"searchable": 1,
-			"changeable": 1
-		},
-		{
-			"key": "暴风",
-			"name": "暴风",
-			"type": 1,
-			"api": "https://bfzyapi.com/api.php/provide/vod/",
 			"searchable": 1,
 			"changeable": 1
 		},
@@ -225,6 +177,14 @@
 			"changeable": 1
 		},
 		{
+			"key": "毒蛇",
+			"name": "毒蛇",
+			"type": 3,
+			"api": "csp_Dushe",
+			"searchable": 1,
+			"changeable": 1
+		},
+		{
 			"key": "在线",
 			"name": "在线",
 			"type": 3,
@@ -238,14 +198,13 @@
 			"type": 3,
 			"api": "csp_Kanp",
 			"searchable": 1,
-			"changeable": 1,
-			"timeout": 20
+			"changeable": 1
 		},
 		{
-			"key": "网飞",
-			"name": "网飞",
+			"key": "力帆",
+			"name": "力帆",
 			"type": 3,
-			"api": "csp_Wangfei",
+			"api": "csp_Bilfun",
 			"searchable": 1,
 			"changeable": 1
 		},
@@ -262,6 +221,14 @@
 			"name": "电天",
 			"type": 3,
 			"api": "csp_TvDy",
+			"searchable": 1,
+			"changeable": 1
+		},
+		{
+			"key": "三五",
+			"name": "三五",
+			"type": 3,
+			"api": "csp_SanWu",
 			"searchable": 1,
 			"changeable": 1
 		},
