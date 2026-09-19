@@ -266,14 +266,6 @@
 			"changeable": 1
 		},
 		{
-			"key": "机器",
-			"name": "机器",
-			"type": 3,
-			"api": "csp_Ikanbot",
-			"searchable": 1,
-			"changeable": 1
-		},
-		{
 			"key": "巴士",
 			"name": "巴士",
 			"type": 3,
