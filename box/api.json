@@ -1,5 +1,5 @@
 {
-	"spider": "https://ghproxy.net/https://raw.githubusercontent.com/Mujinniao/Anonima/refs/heads/main/box/custom_spider.jar;md5;0479bb0eb61bf2adb4c90ec380cca9b2",
+	"spider": "https://mjn.dpdns.org/https://raw.githubusercontent.com/Mujinniao/Anonima/refs/heads/main/box/custom_spider.jar;md5;0479bb0eb61bf2adb4c90ec380cca9b2",
 	"lives": [
 		{
 			"name": "IPTV",
@@ -16,7 +16,7 @@
 			"api": "csp_Douban",
 			"changeable": 1,
 			"searchable": 0,
-			"ext": "https://ghproxy.net/https://raw.githubusercontent.com/Mujinniao/Anonima/refs/heads/main/box/douban.json"
+			"ext": "https://mjn.dpdns.org/https://raw.githubusercontent.com/Mujinniao/Anonima/refs/heads/main/box/douban.json"
 		},
 		{
 			"key": "量子",
@@ -166,7 +166,7 @@
 			"api": "csp_Jianpian",
 			"searchable": 1,
 			"changeable": 1,
-			"ext": "https://ghproxy.net/https://raw.githubusercontent.com/Mujinniao/Anonima/refs/heads/main/box/jianpian.json"
+			"ext": "https://mjn.dpdns.org/https://raw.githubusercontent.com/Mujinniao/Anonima/refs/heads/main/box/jianpian.json"
 		},
 		{
 			"key": "爱看",
